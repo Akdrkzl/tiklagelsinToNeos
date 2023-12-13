@@ -1,3 +1,39 @@
+/* SİDEBAR CSS BAŞLANGIÇ HAKAN */
+.card-header {
+    background-color: #b41528 !important 
+}
+.card-header:hover{
+    background-color: #eba5ab !important
+}
+.div1{
+    text-decoration: none;
+}
+.card-header2 {
+    background-color: #e91d34 !important  
+}
+.card-header2:hover {
+    background-color: #eba5ab !important
+}
+.list-group-item {
+    background-color: #e91d34 !important
+}
+.list-group a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.list-group{
+    cursor: pointer;
+}
+.list-group :hover{
+    background-color:#eba5ab !important  
+}
+/* SİDEBAR CSS SON HAKAN */
+
+
+
+
+
+
 /* Footer başlangıç Mali  */
 
 footer a{
