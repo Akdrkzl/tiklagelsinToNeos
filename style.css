@@ -1,3 +1,137 @@
+/* <-- Navbar CAN BAŞLANGIÇ --> */
+.img{
+    width: 150px;
+    height: 56px;
+}
+img{
+    margin-top: 2px;
+    width: 100%;
+}
+.ikon{
+    margin-top: 20px;
+}
+.cizgi{
+    border: 1px  red solid;
+}
+.box{
+    height: 50px;
+    width: 160px;
+    align-items: center;
+    gap: 30px;
+    display: flex;
+    font-size: 1rem;
+    border:none ;
+    outline: none;
+    padding: 10px 12px;
+    border-radius: 80px !important;
+    background-color: rgb(228, 38, 38) ;
+    color: white;
+}
+.search-input-wrapper .form-control {
+    font-size: 14px;
+    padding: 1.3rem 0.75rem;
+    border-radius: 10px;
+    border: 1px solid #d8d8d8;
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.form-control {
+    
+    display: block;
+    width: 100px;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.search-input-wrapper .btn-icon>i {
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+}
+
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: rgb(156, 45, 45);
+    color: white; 
+    transition: background-color 0.5s, color 0.3s; 
+}
+
+.box {
+    position: relative;
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0.5px; 
+    background-color: #bbbbbb;
+    right: 110px;
+    top: 0;
+}
+
+.box i {
+    margin-right: 1px; 
+}
+.basketline{
+    height: 50px;
+    border:1px solid#dc1a2f ;
+    background-color: #dc1a2f;
+    border-radius: 20px;
+    width: 150px;
+    
+}
+.fa-solid{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.pshoppingg{
+    border: 1px solid#E91D34;
+    background-color: #E91D34;
+    text-align: center;
+    height: 49px;
+    border-radius: 0 20px 20px 0;
+    width: 110px;
+    padding-top: 10px;
+
+
+}
+
+.pshoppingg:hover{
+    background-color: #dc1a2f;
+}
+
+.basketline:hover{
+    background-color: #dc1a2f;
+}
+
+/* <-- Navbar CAN BİTİŞ--> */
+
+
+
+
+
 /* hesabım kısmı başlangıcı Mali  */
 
 
