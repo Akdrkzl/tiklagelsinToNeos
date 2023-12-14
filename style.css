@@ -1,3 +1,55 @@
+/* hesabım kısmı başlangıcı Mali  */
+
+
+body{
+    background-color: #F2F2F2;
+}
+
+.hesabim a{
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+}
+
+.hesabim .card-red{
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+   
+}
+.hesabim .card-white{
+    border-radius: 20px;
+}
+
+.hesabim .card-white p{
+    color: red;
+
+}
+.hesabim .card-white .renk-atama{
+    color: #909090;
+
+}
+.hesabim .icon-settings .renk-atama{
+    color: #909090;
+    font-size: 14px;
+
+}
+.hesabim .icon-settings i{
+    color: red;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+    
+}
+.hesabim .icon-settings .card{
+    border-radius: 20px;
+    border: 0;
+    height: 127px;
+}
+
+/* hesabım kısmı bitişi Mali  */
+
+
+
 /* Footer başlangıç Mali  */
 
 footer a{
