@@ -1,3 +1,29 @@
+    /* SİDEBAR CSS BAŞLANGIÇ HAKAN */
+    .nav-link {
+        background-color: #e91d34 !important
+    }
+
+    .div1 {
+        width: 8%;
+    }
+
+    .nav-link {
+        border: 1px solid white !important
+    }
+
+    .nav-link:hover {
+        background-color: #ef6474 !important;
+    }
+
+    .active {
+        background-color: #b41528 !important;
+        color: #ffffff;
+    }
+
+    /* SİDEBAR CSS SON HAKAN */
+
+
+
 /* hesabım kısmı başlangıcı Mali  */
 
 
