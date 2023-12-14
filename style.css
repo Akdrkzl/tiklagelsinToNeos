@@ -128,7 +128,80 @@ img{
 
 /* <-- Navbar CAN BİTİŞ--> */
 
+/* ANASAYFA SİDEBAR START KAYRA*/
+.login-card{
+    border: 2px solid #f2f2f2;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
 
+.carousel-title{
+    font-size: 0.8rem;
+    color: #8d8783;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 0.75rem;
+    background-color: #fff;
+}
+
+/* ANASAYFA SİDEBAR END KAYRA */
+
+/* MOTOR ANİMATİON START KAYRA */
+
+
+#right-wheel{
+    animation: wheel .5s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#Group{
+    animation: motor 1s ease-in infinite alternate;
+    transform-origin: bottom;
+}
+#right{
+    animation: road 0.5s linear infinite;
+    background-repeat: repeat-x;
+    width: 500%;
+}
+#mid{
+    animation: road 0.5s linear infinite;
+    background-repeat: repeat-x;
+    width: 500%;
+}
+#left{
+    animation: road 0.5s linear infinite;
+    background-repeat: repeat-x;
+    width: 500%;
+}
+
+@keyframes wheel{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes motor{
+    from{
+        transform: rotateX(0deg);
+    }
+    to{
+        transform: rotateX(20deg);
+    }
+}
+@keyframes road{
+    100%{
+        transform: translateX(-180px);
+    }
+}
+
+/* MOTOR ANİMATİON END KAYRA */
 
 
 
