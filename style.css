@@ -129,7 +129,97 @@
 /* <-- Navbar CAN BİTİŞ--> */
 
 
+/* ! Card Structure Start Burak */
 
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+#step1 {
+  display: flex;
+}
+
+.logo-card {
+  margin: auto;
+}
+
+#card-baslik {
+  padding: 20px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-yazi {
+  padding: 0px;
+  margin: 0px;
+  color: #fff !important;
+  font-size: 11px;
+  line-height: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-card {
+  width: 190px;
+  height: 165px;
+  margin: 5px;
+  padding: 10px 0px 0px 0px;
+  border-radius: 20px;
+}
+
+.top-card:hover .resim {
+  scale: 1.05;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.top-card:hover .card-body {
+  background-color: #b41528;
+}
+
+.card-body {
+  background-color: #e91d34;
+  display: flex;
+  border-radius: 0px 0px 15px 15px;
+  align-items: center;
+}
+
+.red-card {
+  padding: 5px;
+}
+
+/* ! Card Structure End */
+
+/* * Card Image CSS Start */
+
+.w-77{
+  width: 77px;
+}
+
+.h-90{
+  height: 90px;
+}
+
+.w-84 {
+  width: 84px;
+}
+
+.h-90{
+  height: 90px;
+}
+
+.card-img-amasya {
+  width: 98px;
+  height: 90px;
+}
+
+.card-img-milgo {
+  width: 75px;
+  height: 90px;
+}
+
+/* * Card Image CSS End */
 
 
 /* hesabım kısmı başlangıcı Mali  */
