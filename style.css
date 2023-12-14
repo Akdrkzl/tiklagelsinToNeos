@@ -323,3 +323,116 @@ footer a{
 
 
  /* Footer bitiş Mali  */
+
+/* <-- RESTORAN URUNLERI TOLUNAY BASLANGIC --> */
+
+body, html {
+    height: 100%;
+    color: #1b1007;
+    background-color: #f2f2f2!important;
+    font-family: Helvetica;
+}
+.bastakiresim{
+    width: 100%;
+}
+.card{
+    background-color: transparent;
+    border-radius: 10px !important;
+    border: 0 !important;
+    margin: 15px !important;
+}
+.card h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.card:hover {
+    opacity: .75;
+    background-color: #e0dfdf;
+    cursor: pointer;
+}
+
+.img-wrapper{
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    padding: 0px !important;
+}
+.col-12{
+    padding: 0px !important;
+}
+.container{
+    width: 80% !important;
+}
+.btnsepeti{
+    border-radius: 3rem!important;
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e91d34;
+    border-color: #e91d34;
+}
+.sepet {
+    border-radius: 3rem!important;
+}
+.btnsepeti:hover{
+    color: #212529;
+    text-decoration: none;
+}
+
+.btnarti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: 14px;
+    right: 14px;
+    border: 1px solid #ef6474;
+}
+
+.card-text{
+    color: #e91d34;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 12px!important;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #999!important;
+    border-radius: 19px;
+    border: 1px solid #d8d8d8;
+    line-height: 18px;
+    padding: 6px 16px;
+    background-color: white;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    text-align: center;
+    padding: 6px !important;
+    text-decoration: none;
+    color: #343a40;
+    background-color: #f8f9fa;
+}
+
+.active h2 {
+    background-color: #dc3545;
+    color: white !important;
+}
+
+/* <-- RESTORAN URUNLERI TOLUNAY SON --> */
