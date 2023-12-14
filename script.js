@@ -20,3 +20,20 @@ for (let i = 0; i < accordionHeader.length; i++) {
 }
 
 // footer kodları bitişi mali 
+
+// RESTORAN JS BASLANGIC TOLUNAY
+
+function changeColor(element) {
+    // Tüm bağlantılardan 'active' sınıfını kaldır
+    var links = document.querySelectorAll('.b');
+    links.forEach(function(link) {
+        link.classList.remove('active');
+    });
+
+    // Tıklanan bağlantıya 'active' sınıfını ekle
+    element.classList.add('active');
+}
+
+// RESTORAN JS SON TOLUNAY
+
+
