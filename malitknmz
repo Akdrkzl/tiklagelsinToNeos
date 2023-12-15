@@ -12,7 +12,7 @@
 <body>
    <!-- <-- NAVBAR CAN BAŞLANGIÇ-->
 
-   <nav class="container-fluid navbar bg-body d-flex justify-content-center align-items-center ">
+   <nav class="container-fluid navbar bg-body d-flex justify-content-center align-items-center">
     <div class="container-fluid m-2 d-flex   ">
         <a class="navbar-brand" href="#">
             <img class="img-settings" src="./img/logo.png" alt="Logo" class="d-inline-block align-text-top"
@@ -89,7 +89,7 @@
                 <div class="country-phone-malitknmz-input">
                     
                         <div class="">
-                            <select name="country-flag-malitknmz" aria-label="country-Flag"  class="countryflag-malitknmz">
+                            <select name="country-flag-malitknmz" aria-label="country-Flag"  class="countryflag ">
                                 <option value="AZ">Azerbeycan</option>
                                 <option value="BR">Brazilya</option>
                                 <option value="TR">Türkiye</option>
@@ -482,3 +482,12 @@
 
 
   <!-- Footer bitiş Mali  -->
+
+
+
+
+
+
+    
+</body>
+</html>
