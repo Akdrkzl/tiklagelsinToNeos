@@ -1,22 +1,22 @@
 
     /* SİDEBAR CSS BAŞLANGIÇ HAKAN */
-    .nav-link {
+    .sidebar .nav-link {
         background-color: #e91d34 !important
     }
 
-    .div1 {
+    .sidebar {
         width: 8%;
     }
 
-    .nav-link {
+    .sidebar .nav-link {
         border: 1px solid white !important
     }
 
-    .nav-link:hover {
+    .sidebar .nav-link:hover {
         background-color: #ef6474 !important;
     }
 
-    .active {
+    .sidebar .active-sidebar {
         background-color: #b41528 !important;
         color: #ffffff;
     }
