@@ -25,17 +25,24 @@
 
 /* <-- Navbar CAN BAŞLANGIÇ --> */
 .img-settings{
-    width: 150px;
-    height: 56px;
+    width: 100px !important;
+    height: 60px;
+}
+.searchh{
+    width: 30rem;
 }
 .img-settings{
     margin-top: 2px;
     width: 100%;
 }
+.renk{
+    background-color: #d8d8d8;
+}
 .ikon{
     margin-top: 20px;
 }
 .cizgi{
+    margin: 0;
     border: 1px  red solid;
 }
 .box{
@@ -90,7 +97,7 @@
 
 .search-icon {
     position: absolute;
-    top: 50%;
+    top: 35%;
     right: 10px; 
     transform: translateY(-50%);
     cursor: pointer;
@@ -132,6 +139,7 @@
     padding-left: 20px;
 }
 .pshoppingg{
+    
     border: 1px solid#E91D34;
     background-color: #E91D34;
     text-align: center;
@@ -152,6 +160,8 @@
 }
 
 /* <-- Navbar CAN BİTİŞ--> */
+
+
 
 /* ANASAYFA SİDEBAR START KAYRA*/
 .login-card{
