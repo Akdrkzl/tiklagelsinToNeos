@@ -1,13 +1,13 @@
 
     // SİDEBAR JS BAŞLANGIÇ HAKAN
 function setActive(element) {
-    element.classList.add('active');
+    element.classList.add('active-sidebar');
 
     
-    var links = document.querySelectorAll('.nav-link');
+    var links = document.querySelectorAll('.sidebar .nav-link');
     links.forEach(function (link) {
         if (link !== element) {
-            link.classList.remove('active');
+            link.classList.remove('active-sidebar');
         }
     });
 }
