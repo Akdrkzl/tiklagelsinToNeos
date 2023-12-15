@@ -12,113 +12,462 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container param">
-        <!-- Param başlangıç Mali  -->
-       
-        <div class="row">
-            <div class="col-2">
-                 <p class="fs-4 fw-bold">Tıkla Param</p>
-                
-            </div>
-           <div class="col-7"></div>
-           <div class="col-3">          
-          <!-- Button trigger modal -->
-        <button type="button" class="btn btn-danger w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
-         Tıkla Para Kodu Ekle
-        </button>
-  
-         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-             <div class="modal-content">
-             <div class="modal-header">
-                  <p class="modal-title" id="exampleModalLabel">Kodunu Tıkla Para olarak ekleyebilir ve siparişlerin için anında kullanabilirsin.</p>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-             </div>
-                <div class="modal-body">
-             <input type="text" placeholder="Tıkla Para Kodu" class="w-100 p-2">
-         </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-close-white" data-bs-dismiss="modal">Vazgeç</button>
-              <button type="button" class="btn btn-danger">Kodu Ekle</button>
+
+    <!-- <-- NAVBAR CAN BAŞLANGIÇ-->
+
+    <nav class="container-fluid navbar bg-body d-flex justify-content-center align-items-center">
+        <div class="m-2 d-flex justify-content-between align-items-center">
+            <a class="navbar-brand" href="#">
+                <img class="img-settings" src="./img/logo/tiklalogo.png" alt="Logo" class="d-inline-block align-text-top" height="55px">
+            </a>
+    
+            <div class="position-relative searchh ">
+                <input type="text" placeholder="Bir ürün ya da restoran arayın" id="search-input" class="form-control search-input w-100" value="">
+                <div class="search-icon">
+                    <i class="fa-solids fa-search"></i>
                 </div>
-        </div>
             </div>
-        </div>      
-        </div>
-        </div>
-
-
-
-        <div  class="row bg-white card-1 p-2">
-            <div class="col-3">
-            <p class="fw-bold"><i class="fa-solid fa-star text-danger"></i> Kullanılabilir Tıkla Param</p>
+    
+            <ul class="d-flex m-0">
+                <div class="gift-settings">
+                    <i class="fa-solid fa-gift border p-md-3 rounded-5 shadow" style="color: #000000;"></i>
+                </div>
+                <li class="list-unstyled p-3">
+                    <a class="text-decoration-none text-dark" href="#">
+                        Kampanyalar
+                    </a>
+                </li>
+            </ul>
+    
+            <ul class="d-flex m-0 p-0">
+                <div class="gift-settings">
+                    <i class="fa-solid fa-user border p-md-3 rounded-5 shadow" style="color: #000000;"></i>
+                </div>
+                <li class="list-unstyled p-3 gap-3">
+                    <a class="text-decoration-none text-dark" href="account.html">
+                        Hesabım
+                    </a>
+                </li>
+            </ul>
+            <div class="basketline d-flex">
+                <a href="">
+                    <i class="fa-solid fa-lg fa-basket-shopping mt-2 p-3" style="color: #ffffff;"></i>
+                </a>
+                <div class="basketshopping">
+                    <a class="text-decoration-none text-white pshopping" href="">
+                        <p class="pshoppingg">
+                            Sepetim
+                        </p>
+                    </a>
+                </div>
+            </div>
             
-            </div>
-            <div class="col-8"></div>
-            <div class="col-1">
-                
-                <!-- Button trigger modal -->
-        <a href="" type="" class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-            <i class="fa-solid fa-sack-dollar text-danger fs-4 mt-1"></i>
-        </a>
-  
-        <!-- Modal -->
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-         <div class="modal-dialog">
-             <div class="modal-content">
-               <div class="modal-header">
-           <p class="modal-title fs-5" id="staticBackdropLabel">1 Tıkla Paranın değeri 1 TL’dir.</p>
-          
-             </div>
-      
-             <div class="modal-footer">
-          <button type="button" class="btn btn-danger w-100" data-bs-dismiss="modal">Tamam</button>
-         
-          </div>
-              </div>
-         </div>
+            
+            
         </div>
-                
+    </nav>
+    
+    
+    <hr class="cizgi">
 
-        </div>
-        <div class="col-12 para d-flex">
-            <div class="cizgi-kirmizi"></div>
-            <div class="cizgi-gri"></div>
-        </div>
+    <div class="container param">
+      <!-- Param başlangıç Mali  -->
+     
+      <div class="row">
           <div class="col-2">
-            <p class="text-danger fs-2 fw-bold">0,00TL</p>
-            
+               <p class="fs-4 fw-bold">Tıkla Param</p>
+              
+          </div>
+         <div class="col-7"></div>
+         <div class="col-3">          
+        <!-- Button trigger modal -->
+      <button type="button" class="btn btn-danger w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+       Tıkla Para Kodu Ekle
+      </button>
+
+       <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+           <div class="modal-content">
+           <div class="modal-header">
+                <p class="modal-title" id="exampleModalLabel">Kodunu Tıkla Para olarak ekleyebilir ve siparişlerin için anında kullanabilirsin.</p>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+              <div class="modal-body">
+           <input type="text" placeholder="Tıkla Para Kodu" class="w-100 p-2">
+       </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-close-white" data-bs-dismiss="modal">Vazgeç</button>
+            <button type="button" class="btn btn-danger">Kodu Ekle</button>
+              </div>
+      </div>
+          </div>
+      </div>      
+      </div>
+      </div>
+
+
+
+      <div  class="row bg-white card-1 p-2">
+          <div class="col-3">
+          <p class="fw-bold"><i class="fa-solid fa-star text-danger"></i> Kullanılabilir Tıkla Param</p>
+          
+          </div>
+          <div class="col-8"></div>
+          <div class="col-1">
+              
+              <!-- Button trigger modal -->
+      <a href="" type="" class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <i class="fa-solid fa-sack-dollar text-danger fs-4 mt-1"></i>
+      </a>
+
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+       <div class="modal-dialog">
+           <div class="modal-content">
+             <div class="modal-header">
+         <p class="modal-title fs-5" id="staticBackdropLabel">1 Tıkla Paranın değeri 1 TL’dir.</p>
+        
+           </div>
+    
+           <div class="modal-footer">
+        <button type="button" class="btn btn-danger w-100" data-bs-dismiss="modal">Tamam</button>
+       
         </div>
-        <div class="col-8"></div>
-        <div class="col-2 d-flex">
-            <div class="cizgi-dik"></div>
-            <a href="ekstre.html" class="text-decoration-none text-secondary fs-5 mt-3"><i class="fa-solid fa-book "></i> Ekstre</a></div>
-        </div>
+            </div>
+       </div>
+      </div>
+              
+
+      </div>
+      <div class="col-12 para d-flex">
+          <div class="cizgi-kirmizi"></div>
+          <div class="cizgi-gri"></div>
+      </div>
+        <div class="col-2">
+          <p class="text-danger fs-2 fw-bold">0,00TL</p>
+          
+      </div>
+      <div class="col-8"></div>
+      <div class="col-2 d-flex">
+          <div class="cizgi-dik"></div>
+          <a href="ekstre.html" class="text-decoration-none text-secondary fs-5 mt-3"><i class="fa-solid fa-book "></i> Ekstre</a></div>
+      </div>
 
 <!--  -->
-    <div class="bg-white card-2 p-3">
-        <p class="fs-5 fw-bold"><i class="fa-solid fa-gift text-danger"></i> Avantajlar</p>
-        <div class="para d-flex">
-            <div class="cizgi-kirmizi"></div>
-            <div class="cizgi-gri"></div>
-        </div>
-        <ul class="kirmizi-nokta">
-            <li class="mt-3">Restoran’da QR okutarak veya Gel Al'da ilk 180 TL ve üzeri siparişinde <b> 30 TL İndirim</b> kazan! (Kazanım 1 defa olacaktır.)</li>
-            <li class="mt-3">Burger King®’den yapacağın her alışverişte Sana Gelsin ve Gel Al siparişlerine özel <b>%5 Tıkla Para</b>, restoranda<b> %2.5 Tıkla Para </b>kazan!</li>
-            <li class="mt-3">Popeyes®, Arby's® ve Subway®'de  yapacağın her alışverişte Sana Gelsin ve Gel Al siparişlerine özel %7 Tıkla Para, restoranda %3.5 Tıkla Para kazan!</li>
-            <li class="mt-3">Sbarro®, Usta Dönerci® ve Usta Pideci® ’de yapacağın her alışverişte Sana Gelsin ve Gel Al siparişlerine özel <b>%7 Tıkla Para</b>, restoranda <b>%5 Tıkla Para</b> kazan!</li>
-            <li class="mt-3">Amasya Et Ürünleri’nden yapacağın her alışverişte siparişlerine özel<b>%3 Tıkla Para</b> kazan! (Tıkla Para kazanımları kampanyalı ürünlerde geçerli değildir.)</li>
-            <li class="mt-3">Restoranda QR okutarak 1 günde maksimum 1, Gel Al ile maksimum 3, Sana Gelsin ile maksimum 5 işlemden Tıkla Para kazanılacaktır.</li>
-        </ul>
+  <div class="bg-white card-2 p-3">
+      <p class="fs-5 fw-bold"><i class="fa-solid fa-gift text-danger"></i> Avantajlar</p>
+      <div class="para d-flex">
+          <div class="cizgi-kirmizi"></div>
+          <div class="cizgi-gri"></div>
+      </div>
+      <ul class="kirmizi-nokta">
+          <li class="mt-3">Restoran’da QR okutarak veya Gel Al'da ilk 180 TL ve üzeri siparişinde <b> 30 TL İndirim</b> kazan! (Kazanım 1 defa olacaktır.)</li>
+          <li class="mt-3">Burger King®’den yapacağın her alışverişte Sana Gelsin ve Gel Al siparişlerine özel <b>%5 Tıkla Para</b>, restoranda<b> %2.5 Tıkla Para </b>kazan!</li>
+          <li class="mt-3">Popeyes®, Arby's® ve Subway®'de  yapacağın her alışverişte Sana Gelsin ve Gel Al siparişlerine özel %7 Tıkla Para, restoranda %3.5 Tıkla Para kazan!</li>
+          <li class="mt-3">Sbarro®, Usta Dönerci® ve Usta Pideci® ’de yapacağın her alışverişte Sana Gelsin ve Gel Al siparişlerine özel <b>%7 Tıkla Para</b>, restoranda <b>%5 Tıkla Para</b> kazan!</li>
+          <li class="mt-3">Amasya Et Ürünleri’nden yapacağın her alışverişte siparişlerine özel<b>%3 Tıkla Para</b> kazan! (Tıkla Para kazanımları kampanyalı ürünlerde geçerli değildir.)</li>
+          <li class="mt-3">Restoranda QR okutarak 1 günde maksimum 1, Gel Al ile maksimum 3, Sana Gelsin ile maksimum 5 işlemden Tıkla Para kazanılacaktır.</li>
+      </ul>
 
-    </div>
+  </div>
 </div>
-   
+ 
 
 
 
-      <!-- Param bitiş Mali  -->
+    <!-- Param bitiş Mali  -->
+
+
+
+    <hr class="cizgi">
+    
+    <!-- Footer başlangıç Mali  -->
+    <div class="container">
+      <footer>
+        <div class="row">
+          <div class="col-4">
+            <a href="">
+            <img src="./img/apple.png" alt="" width="116px">
+            </a>
+            <a href="">
+            <img src="./img/android.png" alt="" width="116px">
+            </a>
+          </div>
+          <div class="col-6"></div>
+          <div class="col-2">
+            
+            <a class="icon" href="">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="icon" href="">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a class="icon" href="">
+              <i class="fa-brands fa-twitter"></i>
+           </a>
+          </div>
+        </div>
+        <div class="cizgi-1"></div>
+
+        <div class="row">
+          <div class="col-3">
+            <img src="./img/logo.png" alt="" width="115px">
+            <div class="cizgi-1 cizgi-logo"></div>
+            <a class="bilgi-mail" href="">bilgi@tiklagelsin.com</a>
+
+          </div>
+          <div class="col-3">
+            <h6>Site Haritası</h6>
+            <div class="cizgi-grup">
+              <div class="cizgi-kirmizi"></div>
+              <div class="cizgi-gri"></div>
+            </div>
+
+            <ul class="footer-list">
+              <a href="">
+                <li>Ana Sayfa</li>
+              </a>
+              <a href="">
+                <li>Kampanyalar</li>
+              </a>
+              <a href="">
+                <li>Hesabım</li>
+              </a>
+            </ul>
+          
+           </div>
+          <div class="col-3">
+            <h6>Bilgilendirme</h6> 
+            <div class="cizgi-grup">
+              <div class="cizgi-kirmizi"></div>
+              <div class="cizgi-gri"></div>
+            </div>
+          <ul class="footer-list">
+            <li>
+              <!-- Restoran ve kurumsal kısmı  -->
+              <div class="">
+                <ul class="m-0 p-0">
+                  <li class="list-unstyled">                                
+                      <a href="#" class="accordionHeader text-decoration-none ">                                    
+                          <span class="">Restoran ve Kurumsal Sayfalar</span>    
+                          <i class="fa-solid fa-angle-down"></i>
+                      </a>
+                      <ul class="accordionBody d-none">
+                          <li class="fw-medium text-secondary fs-6 mb-1">
+                              <a href="https://e-sirket.mkk.com.tr/?page=company&company=11258#" class="border-0">
+                                  <span class="fw-medium text-secondary">Bilgi Toplumu Hizmetleri</span>
+                              </a>
+                          </li>
+                          <li class="fw-medium text-secondary fs-6 mb-1">
+                              <a href="https://www.burgerking.com.tr/?_ga=2.157148219.1828177083.1702294572-232374633.1702294570" class="border-0">
+                                  <span class="fw-medium text-secondary">Burger King® Kurumsal</span>
+                              </a>
+                          </li>
+                          <li class="fw-medium text-secondary fs-6 mb-1">
+                              <a href="https://www.popeyes.com.tr/?_ga=2.157148219.1828177083.1702294572-232374633.1702294570" class="border-0">
+                                  <span class="fw-medium text-secondary">Usta Dönerci® Kurumsal</span>
+                              </a>
+                          </li>
+                          <li class="fw-medium text-secondary fs-6 mb-1">
+                            <a href="https://www.arbys.com.tr/?_ga=2.184864553.1828177083.1702294572-232374633.1702294570" class="border-0">
+                                <span class="fw-medium text-secondary">Arby's® Türkiye Kurumsal</span>
+                            </a>
+                        </li>
+                        <li class="fw-medium text-secondary fs-6 mb-1">
+                          <a href="https://www.sbarro.com.tr/?_ga=2.184864553.1828177083.1702294572-232374633.1702294570" class="border-0">
+                              <span class="fw-medium text-secondary">Sbarro® Türkiye Kurumsal</span>
+                          </a>
+                      </li>
+                      <li class="fw-medium text-secondary fs-6 mb-1">
+                        <a href="https://www.ustapideci.com.tr/" class="border-0">
+                            <span class="fw-medium text-secondary">Usta Pideci® Türkiye Kurumsal</span>
+                        </a>
+                    </li><li class="fw-medium text-secondary fs-6 mb-1">
+                      <a href=https://www.ustapideci.com.tr/" class="border-0">
+                          <span class="fw-medium text-secondary">Usta Dönerci® Türkiye Kurumsal</span>
+                      </a>
+                  </li>
+                      </ul>                                
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <!-- ürün ve gramaj bilgi  -->
+              <div class="">
+                <ul class="m-0 p-0">
+                  <li class="list-unstyled">                                
+                      <a href="#" class="accordionHeader text-decoration-none ">                                    
+                          <span class="">Ürün ve Gramaj Bilgileri</span>    
+                          <i class="fa-solid fa-angle-down"></i>
+                      </a>
+                      <ul class="accordionBody d-none">
+                          <li class="fw-medium text-secondary fs-6 mb-1">
+                              <a href="https://d3vkdqr0qjxhag.cloudfront.net/burger_king_urun_icerigi_gramaj_bilgisi_c18c6c29a3.pdf" class="border-0">
+                                  <span class="fw-medium text-secondary">Burger King® Ürün İçeriği ve Gramaj Bilgisi</span>
+                              </a>
+                          </li>
+                          <li class="fw-medium text-secondary fs-6 mb-1">
+                              <a href="https://d3vkdqr0qjxhag.cloudfront.net/popeyes_urun_icerigi_gramaj_bilgisi_cea4968976.pdf" class="border-0">
+                                  <span class="fw-medium text-secondary">Popeyes® Ürün İçeriği ve Gramaj Bilgisi</span>
+                              </a>
+                          </li>
+                          <li class="fw-medium text-secondary fs-6 mb-1">
+                              <a href="https://d3vkdqr0qjxhag.cloudfront.net/arbys_urun_icerigi_gramaj_bilgisi_c1224a30d3.pdf" class="border-0">
+                                  <span class="fw-medium text-secondary">Arby's® Ürün İçeriği ve Gramaj Bilgisi</span>
+                              </a>
+                          </li>
+                          <li class="fw-medium text-secondary fs-6 mb-1">
+                            <a href="https://d3vkdqr0qjxhag.cloudfront.net/sbarro_urun_icerigi_gramaj_bilgisi_4578387668.pdf" class="border-0">
+                                <span class="fw-medium text-secondary">Sbarro Ürün İçeriği ve Gramaj Bilgisi</span>
+                            </a>
+                        </li>
+                        <li class="fw-medium text-secondary fs-6 mb-1">
+                          <a href="https://d3vkdqr0qjxhag.cloudfront.net/usta_donerci_urun_icerigi_gramaj_bilgisi_0523a5e3db.pdf" class="border-0">
+                              <span class="fw-medium text-secondary">Usta Dönerci® Ürün İçeriği ve Gramaj Bilgisi</span>
+                          </a>
+                      </li>
+                      <li class="fw-medium text-secondary fs-6 mb-1">
+                        <a href="https://d3vkdqr0qjxhag.cloudfront.net/usta_pideci_urun_icerigi_gramaj_bilgisi_66a50a7dec.pdf" class="border-0">
+                            <span class="fw-medium text-secondary">Usta Pideci® Ürün İçeriği ve Gramaj Bilgisi</span>
+                        </a>
+                    </li>
+                      </ul>                                
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="">KVKK Aydınlatma Metni</a> 
+            </li>
+            <li>
+              <a href="">Çerez Aydınlatma Metni</a> 
+            </li>
+            <li>
+              <!-- tıkla gelsin aydınlatma kısmı  -->
+              <div class="">
+                <ul class="m-0 p-0">
+                  <li class="list-unstyled">                                
+                      <a href="#" class="accordionHeader text-decoration-none">                                    
+                          <span class="">Tıkla Gelsin Aydınlatma Metinleri</span>    
+                          <i class="fa-solid fa-angle-down"></i>
+                      </a>
+                      <ul class="accordionBody d-none">
+                          <li class="fw-medium text-secondary fs-6 mb-1">
+                              <a href="https://www.tiklagelsin.com/uyelik-aydinlatma-metni/" class="border-0">
+                                  <span class="fw-medium text-secondary">Kişisel Verilerin İşlenmesine Yönelik Tıklagelsin Üyelik Aydınlatma Metni</span>
+                              </a>
+                          </li>
+                          <li class="fw-medium text-secondary fs-6 mb-1">
+                              <a href="https://www.tiklagelsin.com/aydinlatma-metni/" class="border-0">
+                                  <span class="fw-medium text-secondary">Kişisel Verilerin İşlenmesine Yönelik Tıklagelsin Aydınlatma Metni</span>
+                              </a>
+                          </li>
+                        
+                      </ul>                                
+                  </li>
+                </ul>
+              </div>
+
+            </li>
+            <li>
+              <a href="">Bilgi Toplumu Hizmetleri</a>
+            </li>
+            <li>
+              <a href="">Blog</a>
+            </li>
+          </ul>
+
+
+
+
+<!--  -->
+          </div>
+          <div class="col-3">
+            <h6>Sertifikalar</h6>
+            <div class="cizgi-grup">
+              <div class="cizgi-kirmizi"></div>
+              <div class="cizgi-gri"></div>
+            </div>
+
+            <a href="" class="mt-1 sertifika text-decoration-none">Et ürünlerimiz yerli üreticilerde helal sertifikalı etten üretilmektedir.</a>
+            <div class="">
+              <ul class="m-0 p-0">
+                <li class="list-unstyled">                                
+                    <a href="#" class="accordionHeader text-decoration-none">                                    
+                        <span class="">Sertifikalar</span>    
+                        <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                    <ul class="accordionBody d-none">
+                     
+                        <li class="fw-medium text-secondary fs-6 mb-1">
+                            <a href="#" class="border-0">
+                                <span class="fw-medium text-secondary">Burger King®</span>
+                            </a>
+                        </li>
+                        <li class="fw-medium text-secondary fs-6 mb-1">
+                            <a href="#" class="border-0">
+                                <span class="fw-medium text-secondary">Usta Dönerci®</span>
+                            </a>
+                        </li>
+                        <li class="fw-medium text-secondary fs-6 mb-1">
+                          <a href="#" class="border-0">
+                              <span class="fw-medium text-secondary">Arby's®</span>
+                          </a>
+                      </li>
+                      <li class="fw-medium text-secondary fs-6 mb-1">
+                        <a href="#" class="border-0">
+                            <span class="fw-medium text-secondary">Popeyes®</span>
+                        </a>
+                    </li>
+                    <li class="fw-medium text-secondary fs-6 mb-1">
+                      <a href="#" class="border-0">
+                          <span class="fw-medium text-secondary">Usta Pideci®</span>
+                      </a>
+                  </li>
+                  <li class="fw-medium text-secondary fs-6 mb-1">
+                    <a href="#" class="border-0">
+                        <span class="fw-medium text-secondary">Amasya Et Ürünleri®</span>
+                    </a>
+                </li>
+                <li class="fw-medium text-secondary fs-6 mb-1">
+                  <a href="#" class="border-0">
+                      <span class="fw-medium text-secondary">Subway®</span>
+                  </a>
+              </li>
+                    </ul>                                
+                </li>
+              </ul>
+            </div>
+            <img class="d-block" src="./img/sertifika.jpg" alt="">
+           </div>
+        </div>
+        <div class="cizgi-1"></div>
+        <div class="row">
+          <div class="col-4"></div>
+          <div class="col-4">
+            <img width="62px" class="m-3" src="./img/amasya.png" alt="">
+       
+            <img width="73px" class="m-3" src="./img/beypilic.png" alt="">
+       
+            <img width="56px" class="m-3" src="./img/neyediginibil.jpg" alt="">
+          </div>
+          <div class="col-3"></div>
+          <div class="col-1">
+            <a href="">
+              <img width="48px" src="./img/qrkod.jpg" alt="">
+            </a>
+          </div>
+         
+        </div>
+        <p class="text-center mt-4">Ata Express® 2023. Tüm hakları saklıdır.</p>
+      </footer>
+</div>
+
+
+
+      <!-- Footer bitiş Mali  -->
 
 
 
