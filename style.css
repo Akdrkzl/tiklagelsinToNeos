@@ -1,4 +1,77 @@
+/* ekstre başlangıç Mali  */
+.ekstre-1{
+    position: relative;
+  height: 100vh;
+}
+.ekstre .ekstre-1{
+width: 100%;
+height: 100vh;
+}
+.ekstre .position-ekstre{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
+}
+.ekstre .fontw{
+    font-size: 14px;
+    color: #797d7f;
+}
+
+/* ekstre bitiş Mali  */
+
+/* Param kısmı başlangıç mali */
+
+
+ .param .para .cizgi-kirmizi{
+    width: 25%;
+    height: 5px;
+    background-color: #E91D34;
+    border-radius: 20px 20px 0px 0px;
+ }
+
+ .param .para .cizgi-gri{
+    width: 75%;
+    height: 5px;
+    background-color: rgb(234, 228, 228);   
+ }
+ .param .para{
+    margin:5px 0px 20px 0px;
+    width: 100%;
+ }
+
+
+ .param .card-1{
+    border-radius: 10px;
+    margin: 0!important;
+   
+ }
+ .param .card-2{
+   border-radius: 10px;
+   margin-top: 20px;
+ 
+}
+
+.param ul.kirmizi-nokta {
+   list-style-type: none; 
+ }
+ 
+.param ul.kirmizi-nokta li::before {
+   content: "•"; 
+   color: red; 
+   display: inline-block;
+   width: 1em; 
+   margin-left: -1em; 
+ }
+.param .cizgi-dik{
+   height: 80px;
+   width: 1px;
+   margin-right: 50px;
+   background-color: #EAE4E4;
+ }
+/* Param kısmı bitiş mali */
     /* SİDEBAR CSS BAŞLANGIÇ HAKAN */
     .sidebar .nav-link {
         background-color: #e91d34 !important
