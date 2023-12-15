@@ -1,4 +1,18 @@
 
+    // SİDEBAR JS BAŞLANGIÇ HAKAN
+function setActive(element) {
+    element.classList.add('active');
+
+    
+    var links = document.querySelectorAll('.nav-link');
+    links.forEach(function (link) {
+        if (link !== element) {
+            link.classList.remove('active');
+        }
+    });
+}
+
+// SİDEBAR JS SON HAKAN
 // footer kodları başlangıcı mali 
 
 //! Accordion Menu
