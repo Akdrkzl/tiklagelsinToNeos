@@ -7,13 +7,14 @@
                     height="55px">
             </a>
 
-            <div class="position-relative searchh ">
+           <!-- 
+             <div class="position-relative searchh ">
                 <input type="text" placeholder="Bir ürün ya da restoran arayın" id="search-input"
                     class="form-control search-input w-100" value="">
                 <div class="search-icon">
                     <i class="fa-solid fa-search"></i>
                 </div>
-            </div>
+            </div> -->
 
             <ul class="d-flex m-0">
                 <div class="gift-settings">
