@@ -163,8 +163,8 @@
 
 
 
-/* ANASAYFA SİDEBAR START KAYRA*/
-.login-card{
+/* ANASAYFA SİDEBAR START */
+.kayra .sidebar .login-card{
     border: 2px solid #f2f2f2;
     background-color: #fff;
     padding: 16px;
@@ -172,7 +172,7 @@
     margin-bottom: 16px;
 }
 
-.carousel-title{
+.kayra .carousel-title{
     font-size: 0.8rem;
     color: #8d8783;
     height: 35px;
@@ -181,8 +181,42 @@
     padding-left: 0.75rem;
     background-color: #fff;
 }
+.kayra .motor-anim{
+    width: 72px;
+    height: 72px;
+}
+.kayra .sidebar-card-text{
+    color: #666666;
+    padding-bottom: 24px;
+    margin: 0;
+}
+.kayra .sidebar-card-link{
+    padding: 7px 20px ;
+    border-radius: 10px;
+    width: 100%;
+}
 
-/* ANASAYFA SİDEBAR END KAYRA */
+.kayra .carousel-indicators .indicators-button{
+    border-radius: 50%;
+    height: 6px; 
+    width: 6px;
+    padding: 0px;
+    background-color: #E91D39 !important;
+}
+.kayra .sidebar #demo{
+    background-color: #fff; 
+    border-radius: 15px;
+}
+.kayra .carousel-item a img{
+    width:100%;
+    border-radius: 15px;
+}
+.kayra .carousel-item p{
+    font-size: 15px;
+    color: #8d8783;
+    margin: 10px;
+}
+/* ANASAYFA SİDEBAR END */
 
 /* MOTOR ANİMATİON START KAYRA */
 
