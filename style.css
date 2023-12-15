@@ -532,3 +532,343 @@ h2{
     width: 40%;
 }
 /* tükenmez finished */
+
+
+/* AYARLAR CSS BAŞLANGIÇ HAKAN */
+.kapsayici{
+    background-color: #f2f2f2;
+}
+.kapsayici1{
+    width: 70rem !important
+}
+.kapsayici2{
+    background-color: white;
+}
+.c1 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-label {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-label1 {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.f1 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-check-label {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-check-label2 {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mb-3 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    width: 110px !important
+}
+
+.hr1 {
+    color: #bdbcbc;
+}
+
+.switch {
+    position: absolute;
+    right: 430px;
+    display: inline-block;
+    width: 50px;
+    height: 28px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #38ce00;
+    ;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* AYARLAR CSS SON HAKAN */
+
+/* <-- Navbar CAN BAŞLANGIÇ --> */
+.img-settings {
+    width: 100px !important;
+    height: 60px;
+}
+
+.searchh {
+    width: 30rem;
+}
+
+.img-settings {
+    margin-top: 2px;
+    width: 100%;
+}
+
+.renk {
+    background-color: #d8d8d8;
+}
+
+.ikon {
+    margin-top: 20px;
+}
+
+.cizgi {
+    margin: 0;
+    border: 1px #e91d34 solid;
+}
+
+.box {
+    height: 50px;
+    width: 160px;
+    align-items: center;
+    gap: 30px;
+    display: flex;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    padding: 10px 12px;
+    border-radius: 80px !important;
+    background-color: rgb(228, 38, 38);
+    color: white;
+}
+
+.search-input-wrapper .form-control {
+    font-size: 14px;
+    padding: 1.3rem 0.75rem;
+    border-radius: 10px;
+    border: 1px solid #d8d8d8;
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.form-control {
+
+    display: block;
+    width: 100px;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.search-input-wrapper .btn-icon>i {
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+}
+
+
+.search-icon {
+    position: absolute;
+    top: 35%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: rgb(156, 45, 45);
+    color: white;
+    transition: background-color 0.5s, color 0.3s;
+}
+
+.box {
+    position: relative;
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0.5px;
+    background-color: #bbbbbb;
+    right: 110px;
+    top: 0;
+}
+
+.box i {
+    margin-right: 1px;
+}
+
+.basketline {
+    height: 50px;
+    border: 1px solid#dc1a2f;
+    background-color: #dc1a2f;
+    border-radius: 20px;
+    width: 150px;
+
+}
+
+.fa-solid {
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.pshoppingg {
+    border: 1px solid#E91D34;
+    background-color: #E91D34;
+    text-align: center;
+    height: 49px;
+    border-radius: 0 20px 20px 0;
+    width: 110px;
+    padding-top: 10px;
+
+
+}
+
+.pshoppingg:hover {
+    background-color: #dc1a2f;
+}
+
+.basketline:hover {
+    background-color: #dc1a2f;
+}
+
+/* <-- Navbar CAN BİTİŞ--> */
+
+/* Footer başlangıç Mali  */
+
+.footer1{
+    width: 70rem !important
+}
+.footer{
+    background-color: white;
+}
+footer a {
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon {
+    text-decoration: none;
+    color: black;
+    width: 50px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.cizgi-1 {
+    width: 100%;
+    height: 1px;
+    background-color: #F2F2F2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cizgi-logo {
+    width: 135px;
+}
+
+.cizgi-kirmizi {
+    width: 90px;
+    height: 3px;
+    background-color: #E91D34;
+}
+
+.cizgi-gri {
+    width: 70px;
+    height: 1px;
+    background-color: rgb(234, 228, 228);
+    margin-top: 1px;
+}
+
+.cizgi-grup {
+    display: flex;
+}
+
+.bilgi-mail {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(112, 107, 107);
+}
+
+.footer-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+
+}
+
+.footer-list a {
+    text-decoration: none;
+    padding: 6px;
+    display: block;
+
+}
+
+.sertifika {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* Footer bitiş Mali  */
