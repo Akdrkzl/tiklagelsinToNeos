@@ -273,6 +273,97 @@
 /* MOTOR ANİMATİON END KAYRA */
 
 
+/* ! Card Structure Start Burak */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.burak #step1 {
+  display: flex;
+}
+
+.burak .logo-card {
+  margin: auto;
+}
+
+.burak #card-baslik {
+  padding: 20px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.burak .card-yazi {
+  padding: 0px;
+  margin: 0px;
+  color: #fff !important;
+  font-size: 11px;
+  line-height: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.burak .top-card {
+  width: 190px;
+  height: 165px;
+  margin: 5px;
+  padding: 10px 0px 0px 0px;
+  border-radius: 20px;
+}
+
+.burak .top-card:hover .resim {
+  scale: 1.05;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.burak .top-card:hover .card-body {
+  background-color: #b41528;
+}
+
+.burak .card-body {
+  background-color: #e91d34;
+  display: flex;
+  border-radius: 0px 0px 15px 15px;
+  align-items: center;
+}
+
+.burak .red-card {
+  padding: 5px;
+}
+
+/* ! Card Structure End Burak */
+
+/* * Burak Card Image CSS Start */
+
+.w-77 {
+  width: 77px;
+}
+
+.h-90 {
+  height: 90px;
+}
+
+.w-84 {
+  width: 84px;
+}
+
+.h-90 {
+  height: 90px;
+}
+
+.burak .card-img-amasya {
+  width: 98px;
+  height: 90px;
+}
+
+.burak .card-img-milgo {
+  width: 75px;
+  height: 90px;
+}
+
+/* * Burak Card Image CSS End */
 
 
 /* hesabım kısmı başlangıcı Mali  */
