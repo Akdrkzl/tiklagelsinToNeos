@@ -362,47 +362,41 @@ footer a{
 
 /* <-- RESTORAN URUNLERI TOLUNAY BASLANGIC --> */
 
-body, html {
-    height: 100%;
-    color: #1b1007;
-    background-color: #f2f2f2!important;
-    font-family: Helvetica;
-}
-.bastakiresim{
+.restoran .bastakiresim{
     width: 100%;
 }
-.card{
+.restoran .card{
     background-color: transparent;
     border-radius: 10px !important;
     border: 0 !important;
     margin: 15px !important;
 }
-.card h3{
+.restoran .card h3{
     text-align: center;
     font-size: 18px;
     font-weight: 700;
     margin-top: 10px;
 }
 
-.card:hover {
+.restoran .card:hover {
     opacity: .75;
     background-color: #e0dfdf;
     cursor: pointer;
 }
 
-.img-wrapper{
+.restoran .img-wrapper{
     position: relative;
     width: 100%;
     cursor: pointer;
     padding: 0px !important;
 }
-.col-12{
+.restoran .col-12{
     padding: 0px !important;
 }
-.container{
+.restoran .container{
     width: 80% !important;
 }
-.btnsepeti{
+.restoran .btnsepeti{
     border-radius: 3rem!important;
     cursor: pointer;
     width: 36px;
@@ -413,15 +407,15 @@ body, html {
     background-color: #e91d34;
     border-color: #e91d34;
 }
-.sepet {
+.restoran .sepet {
     border-radius: 3rem!important;
 }
-.btnsepeti:hover{
+.restoran .btnsepeti:hover{
     color: #212529;
     text-decoration: none;
 }
 
-.btnarti{
+.restoran .btnarti{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -435,13 +429,13 @@ body, html {
     border: 1px solid #ef6474;
 }
 
-.card-text{
+.restoran .card-text{
     color: #e91d34;
     font-size: 16px;
     font-weight: 700;
 }
 
-h2{
+.restoran h2{
     font-size: 12px!important;
     font-weight: 400;
     line-height: 1.5rem;
@@ -453,25 +447,25 @@ h2{
     background-color: white;
 }
 
-.nav{
+.restoran .nav{
     display: flex;
     list-style: none;
 }
 
-.nav-item {
+.restoran .nav-item {
     text-align: center;
     padding: 6px !important;
     text-decoration: none;
     color: #343a40;
-    background-color: #f8f9fa;
 }
 
-.active h2 {
+.restoran .active h2 {
     background-color: #dc3545;
     color: white !important;
 }
 
 /* <-- RESTORAN URUNLERI TOLUNAY SON --> */
+
 /* tükenmez started */
 *{
     margin: 0;
