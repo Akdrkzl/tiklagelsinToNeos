@@ -163,8 +163,9 @@
 
 
 
+
 /* ANASAYFA SİDEBAR START */
-.kayra .sidebar .login-card{
+.kayra .login-card{
     border: 2px solid #f2f2f2;
     background-color: #fff;
     padding: 16px;
@@ -203,7 +204,7 @@
     padding: 0px;
     background-color: #E91D39 !important;
 }
-.kayra .sidebar #demo{
+.kayra #demo{
     background-color: #fff; 
     border-radius: 15px;
 }
@@ -217,6 +218,7 @@
     margin: 10px;
 }
 /* ANASAYFA SİDEBAR END */
+
 
 /* MOTOR ANİMATİON START KAYRA */
 
