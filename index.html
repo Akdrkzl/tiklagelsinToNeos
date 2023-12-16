@@ -15,58 +15,67 @@
 
     <!-- <-- NAVBAR CAN BAŞLANGIÇ-->
 
-    <nav class="container-fluid navbar bg-body d-flex justify-content-center align-items-center">
-        <div class="m-2 d-flex justify-content-between align-items-center">
-            <a class="navbar-brand" href="index.html">
-                <img class="img-settings" src="./img/logo/tiklalogo.png" alt="Logo" class="d-inline-block align-text-top" height="55px">
-            </a>
-    
-            <div class="position-relative searchh ">
-                <input type="text" placeholder="Bir ürün ya da restoran arayın" id="search-input" class="form-control search-input w-100" value="">
-                <div class="search-icon">
-                    <i class="fa-solid fa-search"></i>
-                </div>
-            </div>
-    
-            <ul class="d-flex m-0">
+  <div class="container-fluid d-flex justify-content-center align-items-center">
+      <nav class="navbar navbar-expand-lg  ">
+        <div class="container-fluid gap-5">
+          <a class="navbar-brand" href="index.html">
+            <img class="img-settings" src="./img/logoo.png" alt="Logo" class="d-inline-block align-text-top" height="55px">
+        </a>
+        <form class="d-flex arama" role="search">
+          <div class="search-containers">
+              <input class="form-control p-2 custom-width" type="search" placeholder="Search" aria-label="Search">
+              <i class="fa-solid fa-search"></i>
+          </div>
+      </form>
+      
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
                 <div class="gift-settings">
                     <i class="fa-solid fa-gift border p-md-3 rounded-5 shadow" style="color: #000000;"></i>
                 </div>
-                <li class="list-unstyled p-3">
-                    <a class="text-decoration-none text-dark" href="#">
-                        Kampanyalar
-                    </a>
-                </li>
-            </ul>
-    
-            <ul class="d-flex m-0 p-0">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class=" nav-link text-decoration-none text-dark p-3" href="account.html">
+                            Kampanyalar
+                        </a>
+                    </li>
+                </ul>
+
                 <div class="gift-settings">
-                    <i class="fa-solid fa-user border p-md-3 rounded-5 shadow" style="color: #000000;"></i>
-                </div>
-                <li class="list-unstyled p-3 gap-3">
-                    <a class="text-decoration-none text-dark" href="account.html">
-                        Hesabım
-                    </a>
-                </li>
-            </ul>
-            <div class="basketline d-flex">
-                <a href="">
-                    <i class="fa-solid fa-lg fa-basket-shopping mt-2 p-3" style="color: #ffffff;"></i>
+                  <i class="fa-solid fa-user border p-md-3 rounded-5 shadow" style="color: #000000;"></i>
+              </div>
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link text-decoration-none text-dark p-3" href="account.html">
+                          Hesabım
+                      </a>
+                  </li>
+              </ul>
+
+              <div class="basketline d-flex ">
+                <a href="account.html">
+                    <i class="fa-solid fa-lg fa-basket-shopping mt-2 p-3" style="color: #f3e7e7;"></i>
                 </a>
-                <div class="basketshopping">
+                <div class="basketshopping ">
                     <a class="text-decoration-none text-white pshopping" href="">
-                        <p class="pshoppingg">
+                        <p class="pshoppingg text-center">
                             Sepetim
                         </p>
                     </a>
                 </div>
             </div>
-            
-            
-            
+
+            </div>
         </div>
     </nav>
-    
+          </div>
+        </div>
+      </nav>
+     
+    </div>
+
     
     <hr class="cizgi">
 
