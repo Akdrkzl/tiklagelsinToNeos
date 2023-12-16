@@ -108,7 +108,7 @@ height: 100vh;
     display: flex;
 }
 
-.form-control {
+.search-containers .form-control {
     border-radius: 10px; 
     padding-right: 30px;
 }
