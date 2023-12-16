@@ -113,7 +113,7 @@ height: 100vh;
     padding-right: 30px;
 }
 
-.fa-search {
+.search-containers .fa-search {
     position: absolute;
     right: 10px; 
     top: 50%;
