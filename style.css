@@ -1136,3 +1136,91 @@ footer a {
 }
 
 /* tükenmez finished */
+
+/* SEPETİM BAŞLANGIÇ KAYRA */
+
+.cizgi-kirmizi-sepet{
+    width: 15%;
+    height: 3px;
+    background-color: #E91D34;
+ }
+
+ .cizgi-gri-sepet{
+    width: 85%;
+    height: 3px;
+    background-color: rgb(234, 228, 228);
+   
+ }
+ .sepetim{
+    border-radius: 15px;
+    background-color: #fff;
+ }
+ .btn-sepet span{
+    margin: 10px 0;
+    font-size: 14px; 
+    font-weight: 700;
+    color: #e91d34;
+ }
+ .btn-sepet span:hover{
+    color: #BA1729;
+ }
+
+ .section-title{
+   font-size: 16px;
+   font-weight: 700;
+
+ }
+ .btn-coupon{
+    padding: 0 16px;
+    margin:14px 0 8px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 30%;
+ }
+ .btn-coupon:hover{
+    color: #BA1729;
+    background-color: white;
+ }
+ .btn-bottom{
+   font-size: 14px;
+   font-weight: 500;
+   padding: 0 16px;
+   margin:0 10px 8px;
+   height: 44px;
+   border-radius: 10px;
+ }
+ .btn-bottom:hover{
+   color: #BA1729;
+   background-color: white;
+}
+
+.row-container .col-3{
+   max-width: 25%;
+   background-color: #fff;
+   border-radius: 10px;
+   height: 100%;
+   padding: 16px;
+   margin-bottom: 16px
+}
+
+.row-container .row .col-3 .div{
+   font-size: 18px;
+   font-weight: 700;
+}
+
+.sepetim-top a{
+   color: #666;
+   font-weight: 400;
+}
+.sepetim-top p{
+   color: #6c757d;
+   margin-left: 5px;
+   font-size: 14px;
+}
+
+.sepetim hr{
+   color:  rgb(234, 228, 228);
+}
+/* SEPETİM BİTİŞ KAYRA */
