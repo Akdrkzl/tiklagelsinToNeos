@@ -50,4 +50,31 @@ function changeColor(element) {
 
 // RESTORAN JS SON TOLUNAY
 
+// SİPARİŞLERİM START KAYRA
 
+function noworder() {
+  
+document.getElementById("now").classList.add("d-block") 
+document.getElementById("now").classList.remove("d-none")
+document.getElementById("before").classList.add("d-none")
+
+document.querySelector(".btn1").style.color = "#E91D34"
+document.querySelector(".btn1").style.borderBottom = "4px solid #E91D34"
+
+document.querySelector(".btn2").style.color = "#000"
+document.querySelector(".btn2").style.borderBottom = "4px solid #f2f2f2"
+}
+
+function beforeorder() { 
+  document.getElementById("before").classList.add("d-block") 
+  document.getElementById("before").classList.remove("d-none") 
+  document.getElementById("now").classList.add("d-none") 
+
+document.querySelector(".btn2").style.color = "#E91D34"
+document.querySelector(".btn2").style.borderBottom = "4px solid #E91D34"
+
+document.querySelector(".btn1").style.color = "#000"
+document.querySelector(".btn1").style.borderBottom = "4px solid #f2f2f2"
+
+}
+// SİPARİŞLERİM END KAYRA
