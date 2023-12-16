@@ -1224,3 +1224,33 @@ footer a {
    color:  rgb(234, 228, 228);
 }
 /* SEPETİM BİTİŞ KAYRA */
+
+
+/* SİPARİŞLERİM BAŞLANGIÇ KAYRA */
+.click-btns .btn{
+    font-size: 16px;
+    font-weight: 700;
+    border: 0;
+}
+.click-btns .btn1{
+    border-bottom: 4px solid #f2f2f2;
+    border-radius: 0;
+}
+.click-btns .btn2{
+    color: #E91D34;
+    border-bottom:4px solid #E91D34;
+    border-radius: 0;
+}
+.click-btns .btn1:hover{
+    border-bottom: 4px solid #E91D34;
+    border-radius: 0;
+}
+
+.siparis{
+    color: #E91D34;
+    text-decoration: none;
+}
+.siparis:hover{
+    text-decoration: underline;
+}
+/* SİPARİŞLERİM BİTİŞ KAYRA */
