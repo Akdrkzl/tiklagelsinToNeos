@@ -23,7 +23,9 @@ height: 100vh;
 /* ekstre bitiş Mali  */
 
 /* Param kısmı başlangıç mali */
-
+body{
+    background-color: #F2F2F2;
+}
 
  .param .para .cizgi-kirmizi{
     width: 25%;
@@ -71,7 +73,17 @@ height: 100vh;
    margin-right: 50px;
    background-color: #EAE4E4;
  }
+ .sepetim-top a{
+   color: #666;
+   font-weight: 400;
+}
+.sepetim-top p{
+   color: #6c757d;
+   margin-left: 5px;
+   font-size: 14px;
+}
 /* Param kısmı bitiş mali */
+
     /* SİDEBAR CSS BAŞLANGIÇ HAKAN */
     .sidebar .nav-link {
         background-color: #e91d34 !important
