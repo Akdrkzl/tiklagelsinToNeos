@@ -109,6 +109,9 @@ body{
     /* SİDEBAR CSS SON HAKAN */
 
 /* <-- Navbar CAN BAŞLANGIÇ --> */
+.arka{
+    background-color: white !important;
+}
 .arama{
     width: 50vh;
     height: 50px;
