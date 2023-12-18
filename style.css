@@ -3,7 +3,76 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* <-- Navbar CAN BAŞLANGIÇ --> */
 
+.arka{
+    z-index:9999 !important;
+    background-color: white !important;
+}
+
+.arama{
+    width: 50vh;
+    height: 50px;
+    border-radius: 100px !important;
+}
+
+.search-containers {
+    position: relative;
+    display: flex;
+}
+
+.search-containers .form-control {
+    border-radius: 10px; 
+    padding-right: 30px;
+}
+
+.search-containers .fa-search {
+    position: absolute;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555; 
+}
+
+.search-containers .custom-width {
+    width: 28rem; 
+}
+.basketline{
+    height: 50px;
+    border:1px solid#dc1a2f ;
+    background-color: #dc1a2f;
+    border-radius: 20px;
+    width: 150px;
+    
+}
+.pshoppingg{
+    
+    border: 1px solid#E91D34;
+    background-color: #E91D34;
+    text-align: center;
+    height: 49px;
+    border-radius: 0 20px 20px 0;
+    width: 110px;
+    padding-top: 10px;
+
+}
+@media (max-width: 992px) {
+    .nav-link {
+        gap: 5px;
+        display: none;
+    }
+
+}
+@media (max-width: 760px) {
+
+
+    .search-icon {
+        display: none;
+    }
+}
+
+
+/* <-- Navbar CAN BİTİŞ--> */
 
 /* ekstre başlangıç Mali  */
 .ekstre-1{
@@ -115,76 +184,7 @@ body{
 
     /* SİDEBAR CSS SON HAKAN */
 
-/* <-- Navbar CAN BAŞLANGIÇ --> */
 
-.arka{
-    z-index:9999 !important;
-    background-color: white !important;
-}
-
-.arama{
-    width: 50vh;
-    height: 50px;
-    border-radius: 100px !important;
-}
-
-.search-containers {
-    position: relative;
-    display: flex;
-}
-
-.search-containers .form-control {
-    border-radius: 10px; 
-    padding-right: 30px;
-}
-
-.search-containers .fa-search {
-    position: absolute;
-    right: 10px; 
-    top: 50%;
-    transform: translateY(-50%);
-    color: #555; 
-}
-
-.search-containers .custom-width {
-    width: 28rem; 
-}
-.basketline{
-    height: 50px;
-    border:1px solid#dc1a2f ;
-    background-color: #dc1a2f;
-    border-radius: 20px;
-    width: 150px;
-    
-}
-.pshoppingg{
-    
-    border: 1px solid#E91D34;
-    background-color: #E91D34;
-    text-align: center;
-    height: 49px;
-    border-radius: 0 20px 20px 0;
-    width: 110px;
-    padding-top: 10px;
-
-}
-@media (max-width: 992px) {
-    .nav-link {
-        gap: 5px;
-        display: none;
-    }
-
-}
-@media (max-width: 760px) {
-
-
-    .search-icon {
-        display: none;
-    }
-}
-
-
-/* <-- Navbar CAN BİTİŞ--> */
 
 
 
