@@ -747,76 +747,9 @@ input:checked+.slider:before {
 }
 
 /* AYARLAR CSS SON HAKAN */
-
-   <!-- <-- NAVBAR CAN BAŞLANGIÇ-->
-
-  <div class="container-fluid d-flex justify-content-center align-items-center">
-      <nav class="navbar navbar-expand-lg  ">
-        <div class="container-fluid gap-5">
-          <a class="navbar-brand" href="index.html">
-            <img class="img-settings" src="./img/logo/tiklalogo.png" alt="Logo" class="d-inline-block align-text-top" height="55px">
-        </a>
-        <form class="d-flex arama" role="search">
-          <div class="search-containers align-items-center">
-              <input class="form-control p-2 custom-width" type="search" placeholder="Bir ürün ya da restoran arayın" aria-label="Search">
-              <i class="fa-solid fa-search pb-3"></i>
-          </div>
-      </form>
-      
-      <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                <div class="gift-settings">
-                    <i class="fa-solid fa-gift border p-md-3 rounded-5 shadow" style="color: #000000;"></i>
-                </div>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class=" nav-link text-decoration-none text-dark p-3" href="account.html">
-                            Kampanyalar
-                        </a>
-                    </li>
-                </ul>
-
-                <div class="gift-settings">
-                  <i class="fa-solid fa-user border p-md-3 rounded-5 shadow" style="color: #000000;"></i>
-              </div>
-              <ul class="navbar-nav">
-                  <li class="nav-item">
-                      <a class="nav-link text-decoration-none text-dark p-3" href="account.html">
-                          Hesabım
-                      </a>
-                  </li>
-              </ul>
-
-              <div class="basketline d-flex ">
-                <a href="account.html">
-                    <i class="fa-solid fa-lg fa-basket-shopping mt-2 p-3" style="color: #f3e7e7;"></i>
-                </a>
-                <div class="basketshopping ">
-                    <a class="text-decoration-none text-white pshopping" href="">
-                        <p class="pshoppingg text-center">
-                            Sepetim
-                        </p>
-                    </a>
-                </div>
-            </div>
-
-            </div>
-        </div>
-    </nav>
-          </div>
-        </div>
-      </nav>
-     
-    </div>
-
+.cizgi{
     
-    <hr class="cizgi">
-
-
- <!-- <-- NAVBAR CAN BİTİŞ-->
-
+}
 
 /* tükenmez started */
 *{
