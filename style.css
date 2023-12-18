@@ -748,7 +748,7 @@ input:checked+.slider:before {
 
 /* AYARLAR CSS SON HAKAN */
 .cizgi{
-    
+    border: 1px  #E91D34 solid;
 }
 
 /* tükenmez started */
