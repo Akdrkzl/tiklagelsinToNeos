@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 /* ekstre başlangıç Mali  */
 .ekstre-1{
     position: relative;
@@ -753,11 +760,7 @@ input:checked+.slider:before {
 }
 
 /* tükenmez started */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .text{
     color: #333333;
     font-size: 22px;
