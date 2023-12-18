@@ -116,10 +116,11 @@ body{
     /* SİDEBAR CSS SON HAKAN */
 
 /* <-- Navbar CAN BAŞLANGIÇ --> */
-.z-9999{
-    z-index: 9999;
-}
 
+.arka{
+    z-index:9999 !important;
+    background-color: white !important;
+}
 
 .arama{
     width: 50vh;
