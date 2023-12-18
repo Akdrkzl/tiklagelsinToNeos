@@ -6,6 +6,7 @@
 /* <-- Navbar CAN BAŞLANGIÇ --> */
 
 .arka{
+    border-bottom: 1px solid red !important;
     z-index:9999 !important;
     background-color: white !important;
 }
