@@ -116,6 +116,10 @@ body{
     /* SİDEBAR CSS SON HAKAN */
 
 /* <-- Navbar CAN BAŞLANGIÇ --> */
+.z-9999{
+    z-index: 9999;
+}
+
 
 .arama{
     width: 50vh;
