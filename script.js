@@ -78,3 +78,26 @@ document.querySelector(".btn1").style.borderBottom = "4px solid #f2f2f2"
 
 }
 // SİPARİŞLERİM END KAYRA
+
+// CUZDANIM KISMI TOLUNAY BASLANGIC
+
+function setActive(button) {
+    var buttons = document.querySelectorAll('.parayukleme');
+    buttons.forEach(function (btn) {
+        btn.classList.remove('active');
+    });
+
+    button.classList.add('active');
+
+    var masterpass = document.querySelector('.masterpasscuzdan');
+    masterpass.classList.add('active');
+
+    var paraDiv = button.querySelector('.para');
+    var inputField = document.querySelector('.form-control');
+
+    if (inputField) {
+        inputField.value = paraDiv.textContent;
+    }
+}
+
+// CUZDAN KISMI TOLUNAY SON
