@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/fa124a7a4a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="container tolunay">
+        <div class="row">
+
+            <div class="sepetim-top">
+                <div class="d-flex align-items-center">
+                    <div>
+                    <a href="index.html">Anasayfa</a>
+                    </div>
+                    <div>
+                    <p class="m-2">
+                      <i class="fa-solid fa-chevron-right py-0 px-1"></i>
+                      <a href="index.html">Hesabım</a>
+                    </p>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-chevron-right py-0 px-1"></i>
+                    Cüzdanım
+                    </div>
+                    </div>
+        </div>
+            <div class="col-12">
+
+                <div class="cuzdanim">
+                    Cüzdanim
+                </div>
+
+                <div class="bakiyekismi">
+                    <div class="yazikismi">
+
+                        <i class="kullanilabilir fa-solid fa-wallet fa-lg" style="color: #ff1900;"></i>
+
+                        Kullanılabilir Bakiye
+                    </div>
+
+                    <div class="cizgidivi d-flex mt-3 mb-2">
+                        <div class="cizgi-kirmizi"></div>
+                        <div class="cizgi-gri"></div>
+                      </div>
+
+                      <div class="cuzdanguncel">
+                        <div class="para">
+                            <span class="fiyat">0,00 TL</span>
+                        </div>
+
+                        <div class="dikcizgi">
+
+                        </div>
+
+                        <div class="ekstre">
+                            <i class="fa-solid fa-file-invoice fa-xl"></i>
+                            Ekstre
+                        </div>
+                      </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-12">
+
+                <div class="parayukle">
+
+                <div class="yazikismi2">
+
+                <i class="parayukleikon fa-solid fa-money-bill-transfer fa-lg"></i>
+
+                <span class="parayukleyazisi">Para Yükle</span>
+            </div>
+
+            <div class="cizgidivi d-flex mt-3 mb-2">
+                <div class="cizgi-kirmizi2"></div>
+                <div class="cizgi-gri"></div>
+              </div>
+
+              <div class="tutarisec">
+                Yüklemek istediğin  <span class="tutarisec">tutarı seç</span>
+              </div>
+
+              <div class="parayuklemekismi">
+                <button type="button" class="parayukleme btn btn-danger" onclick="setActive(this)"><div class="para">150,00 TL</div></button>
+                <button type="button" class="parayukleme btn btn-danger" onclick="setActive(this)"><div class="para">250,00 TL</div></button>
+                <button type="button" class="parayukleme btn btn-danger" onclick="setActive(this)"><div class="para">350,00 TL</div></button>
+                <button type="button" class="parayukleme btn btn-danger" onclick="setActive(this)"><div class="para">550,00 TL</div></button>
+              </div>
+            
+
+              <p>Ya da tutarı <span class="kendinbelirle">kendin belirle</span></p>
+
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Tutarı girin">
+              </div>
+
+
+              <div class="masterpasscuzdan disabled">
+                <div class="masterpassimg">
+                    <img src="./img/cuzdanım/download.png" width="20px" height="20px" alt="">
+                </div>
+
+                <div class="masterpassyazi">
+                MasterPass ile yükle
+            </div>
+
+              </div>
+
+            </div>
+
+
+
+            
+        </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <div class="parayukle">
+
+                <div class="yazikismi2">
+
+                    <i class="fa-solid fa-gift fa-lg" style="color: #ed0202;"></i>
+
+                <span class="parayukleyazisi">Avantajlar</span>
+            </div>
+
+            <div class="cizgidivi d-flex mt-3 mb-2">
+                <div class="cizgi-kirmizi2"></div>
+                <div class="cizgi-gri"></div>
+              </div>
+
+            <div class="avantajlarlist">
+            <ul style="list-style-type:disc">
+                <li>İlk yüklemeye özel;</li>
+                <li>150-250 TL arasına 25 Tıkla Para,</li>
+                <li>250-350 TL arasına 40 Tıkla Para</li>
+                <li>350-500 TL arasına 60 Tıkla Para,</li>
+                <li>Sonraki her 150 TL ve üzeri yüklemenden %5 Tıkla Para kazan! Bu kampanyadan 50 Tıkla Para’ya kadar kazanabilirsin.</li>
+            </ul>
+        </div>
+
+            </div>
+
+            
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="butonlar.js"></script>
+
+</body>
+</html>
