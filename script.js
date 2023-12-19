@@ -79,18 +79,18 @@ document.querySelector(".btn1").style.borderBottom = "4px solid #f2f2f2"
 }
 // SİPARİŞLERİM END KAYRA
 
-// CUZDANIM KISMI TOLUNAY BASLANGIC
+//! CUZDAN BASLANGIC TOLUNAY
 
 function setActive(button) {
     var buttons = document.querySelectorAll('.parayukleme');
     buttons.forEach(function (btn) {
         btn.classList.remove('active');
     });
-
     button.classList.add('active');
 
-    var masterpass = document.querySelector('.masterpasscuzdan');
+    var masterpass = document.querySelector('.masterpassbtn');
     masterpass.classList.add('active');
+
 
     var paraDiv = button.querySelector('.para');
     var inputField = document.querySelector('.form-control');
@@ -99,8 +99,29 @@ function setActive(button) {
         inputField.value = paraDiv.textContent;
     }
 }
+function onInputChange() {
+    var input = document.querySelector('.form-control');
+    var masterpassbtn = document.querySelector('.masterpassbtn');
 
-// CUZDAN KISMI TOLUNAY SON
+    if (input && masterpassbtn) {
+        var trimmedValue = input.value.trim();
+
+        if (trimmedValue === "") {
+            masterpassbtn.classList.remove('active');
+            masterpassbtn.disabled = true;
+        } else {
+            masterpassbtn.classList.add('active');
+            masterpassbtn.disabled = false;
+        }
+    }
+}
+
+document.querySelector('.form-control').addEventListener('input', onInputChange);
+
+onInputChange();
+
+// !CUZDAN SON TOLUNAY
+
 // mali telefon numarası alanı 
 const ulkeler = [
   {
