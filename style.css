@@ -473,6 +473,8 @@ color: black;
  /* Footer başlangıç Mali  */
 .footer{
    background-color: #FFFFFF;
+   padding-top: 20px;
+   border-top: 1px solid red;
 }
 
 footer a{
