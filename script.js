@@ -101,3 +101,48 @@ function setActive(button) {
 }
 
 // CUZDAN KISMI TOLUNAY SON
+// mali telefon numarası alanı 
+const ulkeler = [
+  {
+    isim: "Türkiye",
+    telefon_kodu: "+90",
+    ulke_kodu: "TR",
+    flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/2560px-Flag_of_Turkey.svg.png"
+  },
+  {
+    isim: "Almanya",
+    telefon_kodu: "+49",
+    ulke_kodu: "DE",
+    flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png"
+  },
+  {
+    isim: "Amerika",
+    telefon_kodu: "+1",
+    ulke_kodu: "USA",
+    flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/US_flag_49_stars.svg/2560px-US_flag_49_stars.svg.png"
+  },
+];
+
+  const select = document.getElementById('select');
+  const input = document.getElementById('input')
+  const img = document.getElementById('img')
+  const options = document.querySelectorAll('option')
+
+select.addEventListener('change',() => {
+  const selected_country_code = select.value
+  const selected_country = ulkeler.find(ulke => ulke.ulke_kodu == selected_country_code)
+  console.log(selected_country)
+  input.value = selected_country.telefon_kodu
+  img.src = selected_country.flag
+  select.value = ""
+  if(img.parentElement.classList.contains('d-none')){
+    img.parentElement.classList.remove('d-none')
+    img.parentElement.classList.add('d-block')
+  }
+
+
+  input.addEventListener('keyup', (event)=> {
+    console.log(event.target.value)
+  })
+})
+// mali telefon numarası alanı bitis
