@@ -12,25 +12,27 @@
 <body>
    <!-- <-- NAVBAR CAN BAŞLANGIÇ-->
 
-   <nav class="container-fluid navbar bg-body d-flex justify-content-center align-items-center ">
-    <div class="container-fluid m-2 d-flex   ">
+   <nav class="container-fluid navbar bg-body d-flex   ">
+    <div class=" m-2 d-flex justify-content-start ">
         <a class="navbar-brand" href="#">
             <img class="img-settings-malitknmz" src="./img/logo.png" alt="Logo" class="d-inline-block align-text-top"
                 height="55px">
         </a>
+    </div>
+     
 
-       
         
+           <div class=" justify-content-end d-flex gap-3 main pe-5">
             <div class="gift-settings-malitknmz  ">
-                <i class="fa-solid fa-gift border p-md-3 rounded-5 shadow" style="color: #000000;"></i>
+                <i class="fa-solid fa-gift border p-3 rounded-5 shadow" style="color: #000000;"></i>
                 <a class="text-decoration-none text-dark" href="#">
                   Kampanyalar
               </a>
             </div>
-           
+            
        
 
-        
+
         <div class="basketline d-flex">
             <a href="">
                 <i class="fa-solid fa-lg fa-basket-shopping mt-2" style="color: #ffffff;"></i>
@@ -43,10 +45,11 @@
                 </a>
             </div>
         </div>
+           </div>
 
 
 
-    </div>
+    
 </nav>
 
 
@@ -78,25 +81,26 @@
             <div class="container d-flex border-0 k1-malitknmz ">
                 <div class="country-phone-malitknmz-input">
                     
-                        <div class="">
-                            <select name="country-flag-malitknmz" aria-label="country-Flag"  class="countryflag-malitknmz">
-                                <option value="AZ">Azerbeycan</option>
-                                <option value="BR">Brazilya</option>
-                                <option value="TR">Türkiye</option>
-                                <option value="FR">Fransa</option>
-                            </select>
+                    <div class="input-group">
+                        <select id="select" class="form-select ">
+                          <option selected disabled>ülke seç</option>
+                          <option value="TR">Türkiye</option>
+                          <option value="DE">Almanya</option>
+                          <option value="USA">United States of America</option>
+                        </select>
+                        <input type="text" class="form-control w-75" id="input">
+                        <div class="d-none sekillendir">
+                          <img id="img" class="img" alt="">
                         </div>
-                    
+                      </div>
                     
                     
                 </div>
                 
-                    <div class="w-100">
-                        <input type="tel" autocomplete="tel" id="phonenumber" name="phonenumber" value="">
-                    </div>
+                    
                 
             </div>
-            <button class="buttonn-malitknmz mt-3 text-white "> 
+            <button class="buttonn-malitknmz mt-3 text-white px-4"> 
                 ilerle
             </button>
             <p class="mt-3">
@@ -138,8 +142,8 @@
       <div class="container footer1 pt-4">
           <footer>
               <div class="row">
-                  <div class="col-4">
-                      <a href="">
+                  <div class="col-4 ">
+                      <a class="list-unstyled text-decoration-none me-3" href="">
                           <img src="./img/apple.png" alt="" width="116px">
                       </a>
                       <a href="">
@@ -478,6 +482,6 @@
 
 
 
-    
+  <script src="script.js"></script>  
 </body>
 </html>
