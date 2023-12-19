@@ -1259,16 +1259,6 @@ select#select{
     outline: none !important;
 }
 
-.tolunay .masterpasscuzdan.disabled {
-    pointer-events: none;
-    opacity: 0.5;
-}
-
-.tolunay .masterpasscuzdan.active {
-    opacity: 1;
-    pointer-events: auto;
-}
-
 .tolunay .parayukleme .btn-danger.active {
     color: #fff;
     background-color: #dc3545;
@@ -1284,7 +1274,7 @@ select#select{
     font-weight: 700;
 }
 
-.tolunay .masterpasscuzdan{
+.tolunay .masterpassbtn{
     border-radius: 6px;
     background-color: #e91d34;;
     color: #fff;
@@ -1293,6 +1283,16 @@ select#select{
     position: relative;
     cursor: pointer;
     width: 100%;
+    border: 0 !important;
+}
+.tolunay .masterpassbtn.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.tolunay .masterpassbtn.active {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .tolunay .masterpassimg{
@@ -1330,5 +1330,4 @@ select#select{
     width: 1em;
     margin-right: 0.5em;
 }
-
-/*! CUZDANİM TOLUNAY SON */
+/* !CUZDANIM SON TOLUNAY */
