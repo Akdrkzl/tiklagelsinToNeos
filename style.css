@@ -949,3 +949,202 @@ input:checked+.slider:before {
     text-decoration: underline;
 }
 /* SİPARİŞLERİM BİTİŞ KAYRA */
+
+/*! CUZDANİM TOLUNAY BASLANGIC */
+
+.tolunay{
+    background-color:#ebebeb;
+    width: 80% !important;
+}
+
+.tolunay .sepetim-top a{
+    color: #666;
+    font-weight: 400;
+ }
+.tolunay .sepetim-top p{
+    color: #6c757d;
+    margin-left: 5px;
+    font-size: 14px;
+ }
+
+.tolunay .cuzdanim{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.tolunay .bakiyekismi{
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.tolunay .yazikismi{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.tolunay .kullanilabilir{
+    margin-right: 10px;
+}
+
+.tolunay .cizgi-kirmizi{
+    width: 22%;
+    height: 5px;
+    background-color: #E91D34;
+ }
+
+.tolunay .cizgi-gri{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(234, 228, 228);
+ }
+
+.tolunay .cuzdanguncel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+.tolunay .fiyat{
+    color: #e91d34;
+    font-size: 30px;
+    font-weight: 700;
+ }
+
+.tolunay .ekstre{
+    color: #676767;
+ }
+
+.tolunay .dikcizgi{
+    position: absolute;
+    height: 65px;
+    width: 2px;
+    background-color: #ebebeb;
+    left: 80%;
+ }
+
+.tolunay .cizgi-kirmizi2{
+    width: 30%;
+    height: 5px;
+    background-color: #E91D34;
+}
+
+.tolunay .parayukle{
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.tolunay .tutarisec{
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.tolunay ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0px !important;
+    padding: 0 !important;
+}
+
+.tolunay .parayukleme{
+    border-radius: 0 !important;
+    border: 0 !important;
+    color: #333;
+    background-color: #f2f2f2;
+    width: 24%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tolunay .parayukleme:hover{
+    background-color: #e91d34 !important;
+}
+
+.tolunay .parayukleme.active{
+    background-color: #e61f31 !important;
+    color: #fff;
+    box-shadow: none !important;
+    border: 0;
+    border-color: transparent !important;
+    outline: none !important;
+}
+
+.tolunay .masterpasscuzdan.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.tolunay .masterpasscuzdan.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.tolunay .parayukleme .btn-danger.active {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.tolunay .parayukleikon{
+    color: #e91d34;
+}
+
+.tolunay .parayukleyazisi{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.tolunay .masterpasscuzdan{
+    border-radius: 6px;
+    background-color: #e91d34;;
+    color: #fff;
+    text-align: center;
+    padding: 13px 0;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+}
+
+.tolunay .masterpassimg{
+    background-color: #1b1007;
+    width: 15%;
+    height: 100%;
+    border-color: #1b1007;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 6px 0 0 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tolunay .kendinbelirle{
+    font-weight: bolder !important;
+}
+
+.tolunay .avantajlarlist ul{
+    display: block;
+}
+
+.tolunay .avantajlarlist ul li{
+    list-style: none;
+    padding: 5px;
+}
+
+.tolunay .avantajlarlist ul li::before {
+    content: '\2022';
+    color: red;
+    display: inline-block;
+    width: 1em;
+    margin-right: 0.5em;
+}
+
+/*! CUZDANİM TOLUNAY SON */
