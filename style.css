@@ -46,7 +46,14 @@
     border-radius: 20px;
     width: 150px;
     
+    
 }
+.basketline .fa-solid{
+    padding-top: 15px;
+    padding-left: 20px;
+    left: 10px !important;
+}
+
 .pshoppingg{
     
     border: 1px solid#E91D34;
