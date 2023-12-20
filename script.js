@@ -98,24 +98,31 @@ function setActive(button) {
     if (inputField) {
         inputField.value = paraDiv.textContent;
     }
+    
 }
+
 function onInputChange() {
-    var input = document.querySelector('.form-control');
-    var masterpassbtn = document.querySelector('.masterpassbtn');
+  var input = document.querySelector('.form-control');
+  var masterpassbtn = document.querySelector('.masterpassbtn');
+  var buttons = document.querySelectorAll('.parayukleme');
 
-    if (input && masterpassbtn) {
-        var trimmedValue = input.value.trim();
+  if (input && masterpassbtn) {
+    var trimmedValue = input.value.trim();
 
-        if (trimmedValue === "") {
-            masterpassbtn.classList.remove('active');
-            masterpassbtn.disabled = true;
-        } else {
-            masterpassbtn.classList.add('active');
-            masterpassbtn.disabled = false;
-        }
+    if (trimmedValue === "") {
+      masterpassbtn.classList.remove('active');
+      masterpassbtn.disabled = true;
+      
+      buttons.forEach(function (btn) {
+        var buttonValue = btn.querySelector('.para').textContent.trim();
+        btn.classList.toggle('active', trimmedValue === buttonValue);
+      });
+    } else {
+      masterpassbtn.classList.add('active');
+      masterpassbtn.disabled = false;
     }
+  }
 }
-
 document.querySelector('.form-control').addEventListener('input', onInputChange);
 
 onInputChange();
