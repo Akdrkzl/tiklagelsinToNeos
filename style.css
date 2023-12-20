@@ -84,6 +84,170 @@
 
 /* <-- Navbar CAN BİTİŞ--> */
 
+/* !Resetleme İşlemi */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Burak Arkadaşını Davet Et Başlangıç */
+
+.burak {
+  width: 100%;
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  display: block;
+  background-color: #f2f2f2;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.fburak {
+  background-color: #f2f2f2 !important;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 20px;
+}
+
+.fburak a {
+  color: #333;
+  font-size: 14px;
+}
+
+.fyazi {
+  font-size: 14px;
+}
+
+.finvite {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.fmain {
+  width: 1110px;
+  height: 600px;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.fresim {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.fphone {
+  width: 1100px;
+  height: 185px;
+}
+
+.fpara {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.faciklama {
+  width: 1100px;
+  height: 21px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+}
+
+.fdaire {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.fcode {
+  border: 1px dashed #e91d34;
+  color: #e91d34;
+  border-radius: 10px;
+  padding: 5px;
+  width: 50%;
+  margin: auto;
+}
+
+.kopyala {
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+  cursor: pointer;
+  float: right;
+  margin-top: 3px;
+}
+
+.fredhover {
+  width: 50%;
+  height: 36px;
+  margin: auto;
+  margin-top: 15px;
+  border: 1px solid #e91d34;
+  color: #e91d34;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  background-color: #e91d34;
+}
+
+.fredhover:hover {
+  background-color: #b41528;
+}
+
+.fpopup {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  text-decoration: underline;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.kapat {
+  color: red;
+}
+
+.fstar {
+  display: flex;
+  width: 50%;
+  height: 82px;
+  margin: auto;
+  margin-top: 15px;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid #e0dfdf;
+}
+
+.fmoney{
+  text-align: center;
+  margin-top: 20px;
+  margin: auto;
+}
+
+.fson{
+  font-size: 12px;
+    font-weight: 400;
+    color: #666;
+    margin-top: 5px;
+}
+
+.modal-body .pkapat:hover{
+  border-color: #b41528 !important;
+  color: #b41528 !important;
+}
+
+/* Burak Arkadaşını Davet Et Bitiş */
+
+
 /* ekstre başlangıç Mali  */
 .ekstre-1{
     position: relative;
