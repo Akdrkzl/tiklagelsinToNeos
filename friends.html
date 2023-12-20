@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkadaşlarını Davet Et</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Arkadaşını Davet Et</title>
+    <!-- ! Bootstrap CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body class="burak">
+    <div class="container align-items-center justify-content-center">
+        <header>
+            <nav class="fburak">
+                <a href="#">Anasayfa</a>
+                <i class="fa-solid fa-chevron-right py-0 px-1"></i>
+                <a href="#">Hesabım</a>
+                <i class="fa-solid fa-chevron-right py-0 px-1"></i>
+                <span class="fyazi">Arkadaşlarını Davet Et</span>
+                <h4 class="finvite">Arkadaşını Davet Et</h4>
+            </nav>
+        </header>
+        <main class="fmain">
+            <div class="fresim">
+                <img src="/img/phone.png" alt="Telefon">
+            </div>
+            <span class="fpara">Tıkla Para Kazanmak İster Misin?</span>
+
+            <br><br>
+
+            <div class="faciklama">
+                <p>Arkadaşını Tıkla Gelsin®’e davet et, <strong>senin kodunla </strong>üye olsun. Arkadaşının yapacağı
+                    ilk
+                    150 TL ve üzeri alışverişinde <strong>10 Tıkla Para </strong>kazan.</p>
+            </div>
+
+            <div class="fdaire">
+                <div class="fcode">
+                    Kod:
+                    <strong id="codef">FB52G7LAG</strong>
+                    <a class="kopyala" href="#" onclick="guncelle(),kopyala()">Kopyala</a>
+                </div>
+            </div>
+
+            <div class="fredhover">
+                <p><strong>Arkadaşlarını Davet Et</strong></p>
+            </div>
+
+            <!-- Scrollable modal -->
+            <a type="button" class="text-black mt-3 fpopup" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Katılım Koşulları
+            </a>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <strong>Katılım Koşulları</strong> <br> <br>
+
+                            <strong>Kampanyanın geçerlilik tarihi nedir?</strong> <br> <br>
+
+                            <p>Kampanya 8 Kasım 2021 – 31 Aralık 2023 tarihleri arasında geçerlidir.</p>
+
+                            <strong>Kampanya hangi kanallarda geçerlidir?</strong> <br> <br>
+                            <p>Kampanya Tıkla Gelsin mobil uygulama, Tıkla Gelsin web sitesinde geçerlidir.</p>
+
+                            <strong>Kampanya faydalanma şartları nelerdir?</strong> <br> <br>
+                            <ul>
+                                <li>
+                                    Kampanyadan faydalanabilmek için davet eden kişinin Tıkla Gelsin Kazandırma Programı
+                                    üyeliğinin
+                                    gerçekleştirilmesi gerekmektedir.
+                                </li>
+
+                                <li>
+                                    Kampanyada davet eden kişinin “ Arkadaşını Davet Et” butonuna basıp paylaşımın
+                                    yapılacağı
+                                    uygulama seçilerek devam edilmelidir.
+                                </li>
+
+                                <li>
+                                    Davet edilen kişi ulaşan bilgilendirmede yer alan linke tıklayarak Tıkla Gelsin
+                                    Kazandırma
+                                    Programı üyeliğinin gerçekleştirilmesi gerekmektedir.
+                                </li>
+
+                                <li>
+                                    10 Tıkla Para ödülünün kazanılabilmesi için davet edilen kişinin daha önce Tıkla
+                                    Gelsin
+                                    uygulamasına ve Tıkla Gelsin Kazandırma Programı üyeliğine kayıt olmaması
+                                    gerekmektedir.
+                                    Davet
+                                    koduyla birlikte yapılacak olan ilk üyeliklerde geçerlidir.
+                                </li>
+
+                                <li>
+                                    10 Tıkla Para ödülünün kazanılması için davet ettiğin arkadaşının 30 gün içerisinde
+                                    150
+                                    TL ve
+                                    üzeri en az 1 adet sipariş vermesi gerekmektedir.
+                                </li>
+
+                                <li>
+                                    Davet edilen kişi cüzdan yüklemesi yaptığında herhangi bir kazanım olmayacak olup
+                                    cüzdandan
+                                    verilen siparişlerde davet eden kişiye yükleme yapılacaktır.
+                                </li>
+
+                                <li>
+                                    Davet edilenin sipariş iptali durumlarında kazanılan Tıkla Para’lar silinecektir.
+                                    Davet için herhangi bir arkadaş sınırı bulunmamaktadır.
+                                </li>
+
+                                <li>
+                                    Davet edilen her arkadaş için 10 Tıkla Para yüklenecektir.
+                                </li>
+
+                                <li>
+                                    Kampanyadan birden fazla kez yararlanılabilmektedir.
+                                </li>
+
+                                <li>
+                                    Kampanya kapsamında kazanılan Tıkla Para’ların kullanım süresi 30 gün ile
+                                    sınırlıdır. 30
+                                    gün
+                                    sonunda kullanılmayan Tıkla Para’lar otomatik silinecektir.
+                                </li>
+
+                                <li>
+                                    Davet edilen kişi de kendi kullanıcısına özel davet kodunu paylaşarak Tıkla Para
+                                    kazanmaya
+                                    başlayabilecektir.
+                                </li>
+
+                                <li>
+                                    1 ay içerisinde en fazla 1.000 TL’lik Tıkla Para kazanılabilir.
+                                </li>
+                            </ul>
+                            <strong>Kampanyaya özel diğer koşullar nelerdir?</strong>
+                            <p>TAB Gıda’nın önceden haber vermeden fiyatlarda değişiklik yapma ve kampanyayı durdurma
+                                hakkı
+                                saklıdır.</p>
+
+                            <p>Ata Express®, Tıkla Gelsin® markası ve ambleminin tek hak sahibidir.</p>
+                            <button type="button" class="btn border-danger text-danger w-100 m-auto pkapat"
+                                data-bs-dismiss="modal">Kapat</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+
+            </div>
+
+            <div class="fstar">
+
+                <p class="fmoney"><i class="fa-solid fa-star" style="color: #f00505;"></i> <strong>Henüz Tıkla Para
+                        Kazanmadın!</strong></p>
+            </div>
+            <p class="fson">Son 24 saat içinde kazanılan Tıkla Paralar dahil değildir.</p>
+        </main>
+    </div>
+
+    <!-- !Fontawesome CDN -->
+    <script src="https://kit.fontawesome.com/c904546572.js" crossorigin="anonymous"></script>
+
+    <!-- ! JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+        <script>
+            var guncellenmisMetin = '';
+    
+            function guncelle() {
+                // Input alanının güncel değerini al
+                guncellenmisMetin = document.getElementById("codef").textContent;
+            }
+    
+            function kopyala() {
+                // Kopyala
+                navigator.clipboard.writeText(aguncellenmisMetin)
+                    // .then(function() {
+                    //     // Kullanıcıya bildirim göster
+                    //     alert("Metin kopyalandı: " + guncellenmisMetin);
+                    // })
+                    // .catch(function(err) {
+                    //     console.error('Kopyalama işlemi başarısız oldu: ', err);
+                    // });
+            }
+        </script>
+</body>
+
+</html>
