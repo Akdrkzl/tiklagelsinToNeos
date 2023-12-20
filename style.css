@@ -1306,6 +1306,13 @@ select#select{
     width: 80% !important;
 }
 
+.tolunay .row{
+    background-color: #F2F2F2;
+}
+.tolunay .col-lg-6{
+    margin-bottom: 40px;
+}
+
 .tolunay .sepetim-top a{
     color: #666;
     font-weight: 400;
@@ -1450,6 +1457,7 @@ select#select{
     width: 100%;
     border: 0 !important;
 }
+
 .tolunay .masterpassbtn.disabled {
     pointer-events: none;
     opacity: 0.5;
@@ -1485,7 +1493,7 @@ select#select{
 
 .tolunay .avantajlarlist ul li{
     list-style: none;
-    padding: 5px;
+    padding: 7px;
 }
 
 .tolunay .avantajlarlist ul li::before {
