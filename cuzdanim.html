@@ -5,155 +5,506 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="./style.css">
-
+    <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <script src="https://kit.fontawesome.com/fa124a7a4a.js" crossorigin="anonymous"></script>
-
+    <!-- css  -->
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-    <div class="container tolunay">
-        <div class="row">
+    <!-- <-- NAVBAR CAN BAŞLANGIÇ-->
 
-            <div class="sepetim-top">
-                <div class="d-flex align-items-center">
-                    <div>
-                    <a href="index.html">Anasayfa</a>
-                    </div>
-                    <div>
-                    <p class="m-2">
-                      <i class="fa-solid fa-chevron-right py-0 px-1"></i>
-                      <a href="index.html">Hesabım</a>
-                    </p>
+    <nav class="container-fluid navbar bg-body d-flex justify-content-center align-items-center">
+        <div class="m-2 d-flex justify-content-between align-items-center">
+            <a class="navbar-brand">
+                <img class="img-settings" src="./img/logo/tiklalogo.png" alt="Logo" class="d-inline-block align-text-top" height="55px" href="index.html">
+            </a>
+    
+            <div class="position-relative searchh ">
+            </div>
+    
+            <ul class="d-flex m-0">
+                <div class="gift-settings">
+                    <i class="fa-solid fa-gift border p-md-3 rounded-5 shadow" style="color: #000000;"></i>
+                </div>
+                <li class="list-unstyled p-3">
+                    <a class="text-decoration-none text-dark" href="#">
+                        Kampanyalar
+                    </a>
+                </li>
+            </ul>
+    
+            <ul class="d-flex m-0 p-0">
+                <div class="gift-settings">
+                    <i class="fa-solid fa-user border p-md-3 rounded-5 shadow" style="color: #000000;"></i>
+                </div>
+                <li class="list-unstyled p-3 gap-3">
+                    <a class="text-decoration-none text-dark" href="#">
+                        Hesabım
+                    </a>
+                </li>
+            </ul>
+            <div class="basketline d-flex">
+                <a href="">
+                    <i class="fa-solid fa-lg fa-basket-shopping mt-2 p-3" style="color: #ffffff;"></i>
+                </a>
+                <div class="basketshopping">
+                    <a class="text-decoration-none text-white pshopping" href="">
+                        <p class="pshoppingg">
+                            Sepetim
+                        </p>
+                    </a>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+    </nav>
+    
+    
+    <hr class="cizgi">
+    <!-- <-- NAVBAR CAN SON-->
+
+    <!-- ANASAYFA TOLUNAY BASLANGIC -->
+
+    <div class="container-fluid tolunay">
+      <div class="row">
+
+          <div class="sepetim-top">
+              <div class="d-flex align-items-center">
+                  <div>
+                  <a href="index.html">Anasayfa</a>
                   </div>
                   <div>
+                  <p class="m-2">
                     <i class="fa-solid fa-chevron-right py-0 px-1"></i>
-                    Cüzdanım
-                    </div>
-                    </div>
-        </div>
-            <div class="col-12">
-
-                <div class="cuzdanim">
-                    Cüzdanim
+                    <a href="index.html">Hesabım</a>
+                  </p>
                 </div>
+                <div>
+                  <i class="fa-solid fa-chevron-right py-0 px-1"></i>
+                  Cüzdanım
+                  </div>
+                  </div>
+      </div>
+          <div class="col-12">
 
-                <div class="bakiyekismi">
-                    <div class="yazikismi">
+              <div class="cuzdanim">
+                  Cüzdanim
+              </div>
 
-                        <i class="kullanilabilir fa-solid fa-wallet fa-lg" style="color: #ff1900;"></i>
+              <div class="bakiyekismi">
+                  <div class="yazikismi">
 
-                        Kullanılabilir Bakiye
+                      <i class="kullanilabilir fa-solid fa-wallet fa-lg" style="color: #ff1900;"></i>
+
+                      Kullanılabilir Bakiye
+                  </div>
+
+                  <div class="cizgidivi d-flex mt-3 mb-2">
+                      <div class="cizgi-kirmizi"></div>
+                      <div class="cizgi-gri"></div>
                     </div>
 
-                    <div class="cizgidivi d-flex mt-3 mb-2">
-                        <div class="cizgi-kirmizi"></div>
-                        <div class="cizgi-gri"></div>
+                    <div class="cuzdanguncel">
+                      <div class="para">
+                          <span class="fiyat">0,00 TL</span>
                       </div>
 
-                      <div class="cuzdanguncel">
-                        <div class="para">
-                            <span class="fiyat">0,00 TL</span>
-                        </div>
+                      <div class="dikcizgi">
 
-                        <div class="dikcizgi">
-
-                        </div>
-
-                        <div class="ekstre">
-                            <i class="fa-solid fa-file-invoice fa-xl"></i>
-                            Ekstre
-                        </div>
                       </div>
-                </div>
+
+                      <div class="ekstre">
+                          <i class="fa-solid fa-file-invoice fa-xl"></i>
+                          Ekstre
+                      </div>
+                    </div>
+              </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-12">
+
+              <div class="parayukle">
+
+              <div class="yazikismi2">
+
+              <i class="parayukleikon fa-solid fa-money-bill-transfer fa-lg"></i>
+
+              <span class="parayukleyazisi">Para Yükle</span>
+          </div>
+
+          <div class="cizgidivi d-flex mt-3 mb-2">
+              <div class="cizgi-kirmizi2"></div>
+              <div class="cizgi-gri"></div>
             </div>
 
-            <div class="col-lg-6 col-md-12 col-12">
-
-                <div class="parayukle">
-
-                <div class="yazikismi2">
-
-                <i class="parayukleikon fa-solid fa-money-bill-transfer fa-lg"></i>
-
-                <span class="parayukleyazisi">Para Yükle</span>
+            <div class="tutarisec">
+              Yüklemek istediğin  <span class="tutarisec">tutarı seç</span>
             </div>
 
-            <div class="cizgidivi d-flex mt-3 mb-2">
-                <div class="cizgi-kirmizi2"></div>
-                <div class="cizgi-gri"></div>
+            <div class="parayuklemekismi">
+              <button type="button" class="parayukleme btn btn-danger" onclick="setActive(this)"><div class="para">150,00 TL</div></button>
+              <button type="button" class="parayukleme btn btn-danger" onclick="setActive(this)"><div class="para">250,00 TL</div></button>
+              <button type="button" class="parayukleme btn btn-danger" onclick="setActive(this)"><div class="para">350,00 TL</div></button>
+              <button type="button" class="parayukleme btn btn-danger" onclick="setActive(this)"><div class="para">550,00 TL</div></button>
+            </div>
+          
+
+            <p>Ya da tutarı <span class="kendinbelirle">kendin belirle</span></p>
+
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Tutarı girin">
+            </div>
+
+            <button class="masterpassbtn disabled">
+            <div class="masterpasscuzdan">
+              <div class="masterpassimg">
+                  <img src="./img/cuzdanım/download.png" width="20px" height="20px" alt="">
               </div>
 
-              <div class="tutarisec">
-                Yüklemek istediğin  <span class="tutarisec">tutarı seç</span>
-              </div>
+              <div class="masterpassyazi">
+              MasterPass ile yükle
+          </div>
+            </div>
+          </button>
+          </div>
+      </div>
+          
+          <div class="col-lg-6 col-md-12 col-12">
+              <div class="parayukle">
 
-              <div class="parayuklemekismi">
-                <button type="button" class="parayukleme btn btn-danger" onclick="setActive(this)"><div class="para">150,00 TL</div></button>
-                <button type="button" class="parayukleme btn btn-danger" onclick="setActive(this)"><div class="para">250,00 TL</div></button>
-                <button type="button" class="parayukleme btn btn-danger" onclick="setActive(this)"><div class="para">350,00 TL</div></button>
-                <button type="button" class="parayukleme btn btn-danger" onclick="setActive(this)"><div class="para">550,00 TL</div></button>
-              </div>
+              <div class="yazikismi2">
+
+                  <i class="fa-solid fa-gift fa-lg" style="color: #ed0202;"></i>
+
+              <span class="parayukleyazisi">Avantajlar</span>
+          </div>
+
+          <div class="cizgidivi d-flex mt-3 mb-2">
+              <div class="cizgi-kirmizi2"></div>
+              <div class="cizgi-gri"></div>
+            </div>
+
+          <div class="avantajlarlist">
+          <ul style="list-style-type:disc">
+              <li>İlk yüklemeye özel;</li>
+              <li>150-250 TL arasına 25 Tıkla Para,</li>
+              <li>250-350 TL arasına 40 Tıkla Para</li>
+              <li>350-500 TL arasına 60 Tıkla Para,</li>
+              <li>Sonraki her 150 TL ve üzeri yüklemenden %5 Tıkla Para kazan! Bu kampanyadan 50 Tıkla Para’ya kadar kazanabilirsin.</li>
+          </ul>
+      </div>
+
+          </div>
+
+          
+          </div>
+      </div>
+  </div>
+
+  <!-- ANASAYFA SON TOLUNAY -->
+
+    <hr class="cizgi">
+    
+    <!-- Footer başlangıç Mali  -->
+    <div class="container">
+      <footer>
+        <div class="row">
+          <div class="col-4">
+            <a href="">
+            <img src="./img/apple.png" alt="" width="116px">
+            </a>
+            <a href="">
+            <img src="./img/android.png" alt="" width="116px">
+            </a>
+          </div>
+          <div class="col-6"></div>
+          <div class="col-2">
             
-
-              <p>Ya da tutarı <span class="kendinbelirle">kendin belirle</span></p>
-
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Tutarı girin">
-              </div>
-
-              <button class="masterpassbtn disabled">
-              <div class="masterpasscuzdan">
-                <div class="masterpassimg">
-                    <img src="./img/cuzdanım/download.png" width="20px" height="20px" alt="">
-                </div>
-
-                <div class="masterpassyazi">
-                MasterPass ile yükle
-            </div>
-              </div>
-            </button>
-            </div>
+            <a class="icon" href="">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="icon" href="">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a class="icon" href="">
+              <i class="fa-brands fa-twitter"></i>
+           </a>
+          </div>
         </div>
-            
-            <div class="col-lg-6 col-md-12 col-12">
-                <div class="parayukle">
+        <div class="cizgi-1"></div>
 
-                <div class="yazikismi2">
+        <div class="row">
+          <div class="col-3">
+            <img src="./img/logo.png" alt="" width="115px">
+            <div class="cizgi-1 cizgi-logo"></div>
+            <a class="bilgi-mail" href="">bilgi@tiklagelsin.com</a>
 
-                    <i class="fa-solid fa-gift fa-lg" style="color: #ed0202;"></i>
-
-                <span class="parayukleyazisi">Avantajlar</span>
+          </div>
+          <div class="col-3">
+            <h6>Site Haritası</h6>
+            <div class="cizgi-grup">
+              <div class="cizgi-kirmizi"></div>
+              <div class="cizgi-gri"></div>
             </div>
 
-            <div class="cizgidivi d-flex mt-3 mb-2">
-                <div class="cizgi-kirmizi2"></div>
-                <div class="cizgi-gri"></div>
-              </div>
-
-            <div class="avantajlarlist">
-            <ul style="list-style-type:disc">
-                <li>İlk yüklemeye özel;</li>
-                <li>150-250 TL arasına 25 Tıkla Para,</li>
-                <li>250-350 TL arasına 40 Tıkla Para</li>
-                <li>350-500 TL arasına 60 Tıkla Para,</li>
-                <li>Sonraki her 150 TL ve üzeri yüklemenden %5 Tıkla Para kazan! Bu kampanyadan 50 Tıkla Para’ya kadar kazanabilirsin.</li>
+            <ul class="footer-list">
+              <a href="index.html">
+                <li>Ana Sayfa</li>
+              </a>
+              <a href="">
+                <li>Kampanyalar</li>
+              </a>
+              <a href="account.html">
+                <li>Hesabım</li>
+              </a>
             </ul>
-        </div>
+          
+           </div>
+          <div class="col-3">
+            <h6>Bilgilendirme</h6> 
+            <div class="cizgi-grup">
+              <div class="cizgi-kirmizi"></div>
+              <div class="cizgi-gri"></div>
+            </div>
+          <ul class="footer-list">
+            <li>
+              <!-- Restoran ve kurumsal kısmı  -->
+              <div class="">
+                <ul class="m-0 p-0">
+                  <li class="list-unstyled">                                
+                      <a href="#" class="accordionHeader text-decoration-none ">                                    
+                          <span class="">Restoran ve Kurumsal Sayfalar</span>    
+                          <i class="fa-solid fa-angle-down"></i>
+                      </a>
+                      <ul class="accordionBody d-none">
+                          <li class="fw-medium text-secondary fs-6 mb-1">
+                              <a href="https://e-sirket.mkk.com.tr/?page=company&company=11258#" class="border-0">
+                                  <span class="fw-medium text-secondary">Bilgi Toplumu Hizmetleri</span>
+                              </a>
+                          </li>
+                          <li class="fw-medium text-secondary fs-6 mb-1">
+                              <a href="https://www.burgerking.com.tr/?_ga=2.157148219.1828177083.1702294572-232374633.1702294570" class="border-0">
+                                  <span class="fw-medium text-secondary">Burger King® Kurumsal</span>
+                              </a>
+                          </li>
+                          <li class="fw-medium text-secondary fs-6 mb-1">
+                              <a href="https://www.popeyes.com.tr/?_ga=2.157148219.1828177083.1702294572-232374633.1702294570" class="border-0">
+                                  <span class="fw-medium text-secondary">Usta Dönerci® Kurumsal</span>
+                              </a>
+                          </li>
+                          <li class="fw-medium text-secondary fs-6 mb-1">
+                            <a href="https://www.arbys.com.tr/?_ga=2.184864553.1828177083.1702294572-232374633.1702294570" class="border-0">
+                                <span class="fw-medium text-secondary">Arby's® Türkiye Kurumsal</span>
+                            </a>
+                        </li>
+                        <li class="fw-medium text-secondary fs-6 mb-1">
+                          <a href="https://www.sbarro.com.tr/?_ga=2.184864553.1828177083.1702294572-232374633.1702294570" class="border-0">
+                              <span class="fw-medium text-secondary">Sbarro® Türkiye Kurumsal</span>
+                          </a>
+                      </li>
+                      <li class="fw-medium text-secondary fs-6 mb-1">
+                        <a href="https://www.ustapideci.com.tr/" class="border-0">
+                            <span class="fw-medium text-secondary">Usta Pideci® Türkiye Kurumsal</span>
+                        </a>
+                    </li><li class="fw-medium text-secondary fs-6 mb-1">
+                      <a href=https://www.ustapideci.com.tr/" class="border-0">
+                          <span class="fw-medium text-secondary">Usta Dönerci® Türkiye Kurumsal</span>
+                      </a>
+                  </li>
+                      </ul>                                
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <!-- ürün ve gramaj bilgi  -->
+              <div class="">
+                <ul class="m-0 p-0">
+                  <li class="list-unstyled">                                
+                      <a href="#" class="accordionHeader text-decoration-none ">                                    
+                          <span class="">Ürün ve Gramaj Bilgileri</span>    
+                          <i class="fa-solid fa-angle-down"></i>
+                      </a>
+                      <ul class="accordionBody d-none">
+                          <li class="fw-medium text-secondary fs-6 mb-1">
+                              <a href="https://d3vkdqr0qjxhag.cloudfront.net/burger_king_urun_icerigi_gramaj_bilgisi_c18c6c29a3.pdf" class="border-0">
+                                  <span class="fw-medium text-secondary">Burger King® Ürün İçeriği ve Gramaj Bilgisi</span>
+                              </a>
+                          </li>
+                          <li class="fw-medium text-secondary fs-6 mb-1">
+                              <a href="https://d3vkdqr0qjxhag.cloudfront.net/popeyes_urun_icerigi_gramaj_bilgisi_cea4968976.pdf" class="border-0">
+                                  <span class="fw-medium text-secondary">Popeyes® Ürün İçeriği ve Gramaj Bilgisi</span>
+                              </a>
+                          </li>
+                          <li class="fw-medium text-secondary fs-6 mb-1">
+                              <a href="https://d3vkdqr0qjxhag.cloudfront.net/arbys_urun_icerigi_gramaj_bilgisi_c1224a30d3.pdf" class="border-0">
+                                  <span class="fw-medium text-secondary">Arby's® Ürün İçeriği ve Gramaj Bilgisi</span>
+                              </a>
+                          </li>
+                          <li class="fw-medium text-secondary fs-6 mb-1">
+                            <a href="https://d3vkdqr0qjxhag.cloudfront.net/sbarro_urun_icerigi_gramaj_bilgisi_4578387668.pdf" class="border-0">
+                                <span class="fw-medium text-secondary">Sbarro Ürün İçeriği ve Gramaj Bilgisi</span>
+                            </a>
+                        </li>
+                        <li class="fw-medium text-secondary fs-6 mb-1">
+                          <a href="https://d3vkdqr0qjxhag.cloudfront.net/usta_donerci_urun_icerigi_gramaj_bilgisi_0523a5e3db.pdf" class="border-0">
+                              <span class="fw-medium text-secondary">Usta Dönerci® Ürün İçeriği ve Gramaj Bilgisi</span>
+                          </a>
+                      </li>
+                      <li class="fw-medium text-secondary fs-6 mb-1">
+                        <a href="https://d3vkdqr0qjxhag.cloudfront.net/usta_pideci_urun_icerigi_gramaj_bilgisi_66a50a7dec.pdf" class="border-0">
+                            <span class="fw-medium text-secondary">Usta Pideci® Ürün İçeriği ve Gramaj Bilgisi</span>
+                        </a>
+                    </li>
+                      </ul>                                
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="">KVKK Aydınlatma Metni</a> 
+            </li>
+            <li>
+              <a href="">Çerez Aydınlatma Metni</a> 
+            </li>
+            <li>
+              <!-- tıkla gelsin aydınlatma kısmı  -->
+              <div class="">
+                <ul class="m-0 p-0">
+                  <li class="list-unstyled">                                
+                      <a href="#" class="accordionHeader text-decoration-none">                                    
+                          <span class="">Tıkla Gelsin Aydınlatma Metinleri</span>    
+                          <i class="fa-solid fa-angle-down"></i>
+                      </a>
+                      <ul class="accordionBody d-none">
+                          <li class="fw-medium text-secondary fs-6 mb-1">
+                              <a href="https://www.tiklagelsin.com/uyelik-aydinlatma-metni/" class="border-0">
+                                  <span class="fw-medium text-secondary">Kişisel Verilerin İşlenmesine Yönelik Tıklagelsin Üyelik Aydınlatma Metni</span>
+                              </a>
+                          </li>
+                          <li class="fw-medium text-secondary fs-6 mb-1">
+                              <a href="https://www.tiklagelsin.com/aydinlatma-metni/" class="border-0">
+                                  <span class="fw-medium text-secondary">Kişisel Verilerin İşlenmesine Yönelik Tıklagelsin Aydınlatma Metni</span>
+                              </a>
+                          </li>
+                        
+                      </ul>                                
+                  </li>
+                </ul>
+              </div>
 
+            </li>
+            <li>
+              <a href="">Bilgi Toplumu Hizmetleri</a>
+            </li>
+            <li>
+              <a href="">Blog</a>
+            </li>
+          </ul>
+
+
+
+
+<!--  -->
+          </div>
+          <div class="col-3">
+            <h6>Sertifikalar</h6>
+            <div class="cizgi-grup">
+              <div class="cizgi-kirmizi"></div>
+              <div class="cizgi-gri"></div>
             </div>
 
-            
+            <a href="" class="mt-1 sertifika text-decoration-none">Et ürünlerimiz yerli üreticilerde helal sertifikalı etten üretilmektedir.</a>
+            <div class="">
+              <ul class="m-0 p-0">
+                <li class="list-unstyled">                                
+                    <a href="#" class="accordionHeader text-decoration-none">                                    
+                        <span class="">Sertifikalar</span>    
+                        <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                    <ul class="accordionBody d-none">
+                     
+                        <li class="fw-medium text-secondary fs-6 mb-1">
+                            <a href="#" class="border-0">
+                                <span class="fw-medium text-secondary">Burger King®</span>
+                            </a>
+                        </li>
+                        <li class="fw-medium text-secondary fs-6 mb-1">
+                            <a href="#" class="border-0">
+                                <span class="fw-medium text-secondary">Usta Dönerci®</span>
+                            </a>
+                        </li>
+                        <li class="fw-medium text-secondary fs-6 mb-1">
+                          <a href="#" class="border-0">
+                              <span class="fw-medium text-secondary">Arby's®</span>
+                          </a>
+                      </li>
+                      <li class="fw-medium text-secondary fs-6 mb-1">
+                        <a href="#" class="border-0">
+                            <span class="fw-medium text-secondary">Popeyes®</span>
+                        </a>
+                    </li>
+                    <li class="fw-medium text-secondary fs-6 mb-1">
+                      <a href="#" class="border-0">
+                          <span class="fw-medium text-secondary">Usta Pideci®</span>
+                      </a>
+                  </li>
+                  <li class="fw-medium text-secondary fs-6 mb-1">
+                    <a href="#" class="border-0">
+                        <span class="fw-medium text-secondary">Amasya Et Ürünleri®</span>
+                    </a>
+                </li>
+                <li class="fw-medium text-secondary fs-6 mb-1">
+                  <a href="#" class="border-0">
+                      <span class="fw-medium text-secondary">Subway®</span>
+                  </a>
+              </li>
+                    </ul>                                
+                </li>
+              </ul>
             </div>
+            <img class="d-block" src="./img/sertifika.jpg" alt="">
+           </div>
         </div>
-    </div>
+        <div class="cizgi-1"></div>
+        <div class="row">
+          <div class="col-4"></div>
+          <div class="col-4">
+            <img width="62px" class="m-3" src="./img/amasya.png" alt="">
+       
+            <img width="73px" class="m-3" src="./img/beypilic.png" alt="">
+       
+            <img width="56px" class="m-3" src="./img/neyediginibil.jpg" alt="">
+          </div>
+          <div class="col-3"></div>
+          <div class="col-1">
+            <a href="">
+              <img width="48px" src="./img/qrkod.jpg" alt="">
+            </a>
+          </div>
+         
+        </div>
+        <p class="text-center mt-4">Ata Express® 2023. Tüm hakları saklıdır.</p>
+      </footer>
+</div>
 
 
+
+      <!-- Footer bitiş Mali  -->
+
+
+    <!-- fontaawesome     -->
+
+    <script src="https://kit.fontawesome.com/9c278c193f.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
+    <!-- javascript  -->
     <script src="script.js"></script>
-
 </body>
 </html>
