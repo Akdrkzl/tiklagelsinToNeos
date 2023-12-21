@@ -174,3 +174,25 @@ select.addEventListener('change',() => {
   })
 })
 // mali telefon numarası alanı bitis
+
+//burak kopyalama kısmı baş 
+
+    var guncellenmisMetin = '';
+    
+            function guncelle() {
+                // Input alanının güncel değerini al
+                guncellenmisMetin = document.getElementById("codef").textContent;
+            }
+    
+            function kopyala() {
+                // Kopyala
+                navigator.clipboard.writeText(aguncellenmisMetin)
+                    // .then(function() {
+                    //     // Kullanıcıya bildirim göster
+                    //     alert("Metin kopyalandı: " + guncellenmisMetin);
+                    // })
+                    // .catch(function(err) {
+                    //     console.error('Kopyalama işlemi başarısız oldu: ', err);
+                    // });
+            }
+//burak kopyala kısmı son
