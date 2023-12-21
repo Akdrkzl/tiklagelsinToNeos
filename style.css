@@ -1504,3 +1504,73 @@ select#select{
     margin-right: 0.5em;
 }
 /* !CUZDANIM SON TOLUNAY */
+
+/* !CUZDANIM RESPONSİVE BASLANGIC TOLUNAY */
+
+@media screen and (max-width: 992px) {
+    .tolunay .row{
+        width: 100%;
+    }
+    .tolunay{
+        width: 85% !important;
+    }
+    .tolunay .parayuklemekismi{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        padding-left: 0;
+    }
+    .tolunay .parayukleme{
+        width: 15%;
+    }
+    .tolunay .dikcizgi{
+        left: 71%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .tolunay .parayukleme{
+        width: 100%;
+        padding: 5px;
+    }
+    .tolunay .parayuklemekismi{
+        flex-direction: column;
+    }
+    .tolunay .dikcizgi{
+        left: 67%;
+    }
+    .tolunay .cizgi-kirmizi2{
+        width: 25%;
+    }
+    .tolunay .cizgi-kirmizi{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .tolunay .dikcizgi{
+        left: 65%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .tolunay .dikcizgi{
+        left: 65%;
+    }
+    .tolunay .row{
+        width: 100%;
+        margin: auto;
+    }
+    .tolunay{
+        width: 100% !important;
+    }
+    .tolunay .cizgi-kirmizi2{
+        width: 50%;
+    }
+    .tolunay .cizgi-kirmizi{
+        width: 100%;
+    }
+    .tolunay .cizgi-gri2{
+        width: 35%;
+    }
+} 
+
+/* !CUZDANIM RESPONSİVE SON TOLUNAY */
