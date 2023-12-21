@@ -186,7 +186,7 @@ select.addEventListener('change',() => {
     
             function kopyala() {
                 // Kopyala
-                navigator.clipboard.writeText(aguncellenmisMetin)
+                navigator.clipboard.writeText(guncellenmisMetin)
                     // .then(function() {
                     //     // Kullanıcıya bildirim göster
                     //     alert("Metin kopyalandı: " + guncellenmisMetin);
