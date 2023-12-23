@@ -1302,13 +1302,9 @@ select#select{
 /*! CUZDANİM TOLUNAY BASLANGIC */
 
 .tolunay{
-    background-color:#ebebeb;
     width: 80% !important;
 }
 
-.tolunay .row{
-    background-color: #F2F2F2;
-}
 .tolunay .col-lg-6{
     margin-bottom: 40px;
 }
