@@ -1501,7 +1501,7 @@ select#select{
 }
 /* !CUZDANIM SON TOLUNAY */
 
-/* !CUZDANIM RESPONSİVE BASLANGIC TOLUNAY */
+/* !CUZDANIM VE RESTORANURUNLERI RESPONSİVE BASLANGIC TOLUNAY */
 
 @media screen and (max-width: 992px) {
     .tolunay .row{
@@ -1521,6 +1521,12 @@ select#select{
     }
     .tolunay .dikcizgi{
         left: 71%;
+    }
+}
+@media screen and (max-width: 804px) {
+    .restoran .card h3{
+        font-size: 14px;
+        font-weight: 600;
     }
 }
 @media screen and (max-width: 767px) {
@@ -1546,6 +1552,16 @@ select#select{
     .tolunay .dikcizgi{
         left: 65%;
     }
+    .restoran .card h3{
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width: 575px){
+    .restoran .card h3{
+        font-size: 17px;
+        font-weight: 600;
+    }
 }
 @media screen and (max-width: 375px) {
     .tolunay .dikcizgi{
@@ -1567,6 +1583,14 @@ select#select{
     .tolunay .cizgi-gri2{
         width: 35%;
     }
+    .restoran{
+        width: 100% !important;
+        margin: auto;
+    }
+    .restoran .col-lg-5{
+        padding: 0 !important;
+        margin: auto;
+    }
 } 
 
-/* !CUZDANIM RESPONSİVE SON TOLUNAY */
+/* !CUZDANIM VE RESTORANURUNLERI RESPONSİVE SON TOLUNAY */
