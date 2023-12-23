@@ -339,6 +339,11 @@ body{
     .sidebar .nav-link {
         background-color: #e91d34 !important
     }
+    .sidebar-hakan .nav .nav-link{
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
 
     .sidebar-hakan {
         width: 8%;
@@ -356,9 +361,13 @@ body{
         background-color: #b41528 !important;
         color: #ffffff;
     }
+    @media screen and (max-width:992px) {
+        .col-2{
+            display: none;
+        }
+    }
 
     /* SİDEBAR CSS SON HAKAN */
-
 
 
 
