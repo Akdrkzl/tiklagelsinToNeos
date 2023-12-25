@@ -1526,7 +1526,7 @@ select#select{
         padding-left: 0;
     }
     .tolunay .parayukleme{
-        width: 15%;
+        width: 18%;
     }
     .tolunay .dikcizgi{
         left: 71%;
@@ -1541,7 +1541,12 @@ select#select{
 @media screen and (max-width: 767px) {
     .tolunay .parayukleme{
         width: 100%;
-        padding: 5px;
+        padding: 0;
+        margin: 0px !important;
+    }
+    .tolunay .para{
+        padding: 6px 12px !important;
+        border-bottom: 1px solid #fff;
     }
     .tolunay .parayuklemekismi{
         flex-direction: column;
